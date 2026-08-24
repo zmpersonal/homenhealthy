@@ -48,8 +48,8 @@ rank,city,state,score,current_aqi,water_compliance_pct,moisture_pressure,median_
 47,Denver,CO,43.8,71,0.0,39.5,1975,0.0
 48,Hartford,CT,43.3,33,0.0,55.5,1951,0.0
 49,Portland,ME,43.1,37,0.0,47.7,1946,0.0
-50,Charlotte,NC,42.9,66,0.0,66.5,1995,2.5
-51,Orlando,FL,42.7,42,0.0,87.2,1992,2.6
+50,Charlotte,NC,42.9,66,0.0,66.5,1995,0.0
+51,Orlando,FL,42.7,42,0.0,87.2,1992,0.0
 52,Grand Rapids,MI,42.5,45,0.0,49.5,1953,0.0
 53,Indianapolis,IN,42.3,54,0.0,60.2,1973,0.0
 54,Minneapolis,MN,42.1,37,0.0,57.7,1951,0.0
@@ -57,9 +57,9 @@ rank,city,state,score,current_aqi,water_compliance_pct,moisture_pressure,median_
 56,Wichita,KS,41.7,48,0.0,69.7,1974,0.0
 57,Atlanta,GA,41.6,65,0.0,68.6,1989,0.0
 58,Providence,RI,40.7,37,0.0,52.7,1938,0.0
-59,Raleigh,NC,40.6,71,0.0,75.3,1997,-1.2
+59,Raleigh,NC,40.6,71,0.0,75.3,1997,0.0
 60,Cleveland,OH,40.3,43,0.0,51.5,1941,0.0
-61,Miami,FL,40.0,44,0.0,86.7,1979,-4.8
+61,Miami,FL,40.0,44,0.0,86.7,1979,0.0
 62,Wilmington,DE,40.0,36,0.0,64.7,1946,0.0
 63,Jackson,MS,39.4,52,0.0,73.0,1969,0.0
 64,Oklahoma City,OK,39.1,70,0.0,70.3,1982,0.0
@@ -72,5 +72,5 @@ rank,city,state,score,current_aqi,water_compliance_pct,moisture_pressure,median_
 71,Birmingham,AL,37.3,54,0.0,77.7,1965,0.0
 72,Washington,DC,37.2,57,0.0,69.1,1958,0.0
 73,New Orleans,LA,37.1,41,0.0,86.7,1960,0.0
-74,Jacksonville,FL,37.0,68,0.0,86.8,1987,-1.0
-75,Tampa,FL,36.9,65,0.0,88.3,1985,-3.1
+74,Jacksonville,FL,37.0,68,0.0,86.8,1987,0.0
+75,Tampa,FL,36.9,65,0.0,88.3,1985,0.0
