@@ -1,2392 +1,17 @@
 {
   "meta": {
-    "generated": "2026-08-31",
+    "generated": "2026-09-03",
     "starter": false,
     "status": "Live public-data refresh",
     "sources": {
       "airnow": 0,
-      "echo_states": 40,
+      "echo_states": 51,
       "noaa_cities": 75,
       "acs_cities": 70
     },
     "notes": "Missing source values preserve the last successful observation rather than being replaced with invented data."
   },
   "cities": [
-    {
-      "city": "Sioux Falls",
-      "state": "SD",
-      "state_name": "South Dakota",
-      "slug": "sioux-falls-sd",
-      "lat": 43.55,
-      "lon": -96.73,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 7.4,
-          "tmax_f": 25.3,
-          "tavg_f": 16.4,
-          "prcp_in": 0.66
-        },
-        {
-          "month": 2,
-          "tmin_f": 11.4,
-          "tmax_f": 30.0,
-          "tavg_f": 20.7,
-          "prcp_in": 0.8
-        },
-        {
-          "month": 3,
-          "tmin_f": 23.4,
-          "tmax_f": 43.3,
-          "tavg_f": 33.4,
-          "prcp_in": 1.47
-        },
-        {
-          "month": 4,
-          "tmin_f": 35.5,
-          "tmax_f": 57.0,
-          "tavg_f": 46.3,
-          "prcp_in": 3.03
-        },
-        {
-          "month": 5,
-          "tmin_f": 48.5,
-          "tmax_f": 69.9,
-          "tavg_f": 59.2,
-          "prcp_in": 3.74
-        },
-        {
-          "month": 6,
-          "tmin_f": 59.3,
-          "tmax_f": 80.4,
-          "tavg_f": 69.9,
-          "prcp_in": 4.59
-        },
-        {
-          "month": 7,
-          "tmin_f": 63.7,
-          "tmax_f": 84.8,
-          "tavg_f": 74.3,
-          "prcp_in": 3.31
-        },
-        {
-          "month": 8,
-          "tmin_f": 61.2,
-          "tmax_f": 81.7,
-          "tavg_f": 71.5,
-          "prcp_in": 3.34
-        },
-        {
-          "month": 9,
-          "tmin_f": 51.7,
-          "tmax_f": 74.8,
-          "tavg_f": 63.3,
-          "prcp_in": 3.04
-        },
-        {
-          "month": 10,
-          "tmin_f": 37.8,
-          "tmax_f": 60.6,
-          "tavg_f": 49.2,
-          "prcp_in": 2.29
-        },
-        {
-          "month": 11,
-          "tmin_f": 24.2,
-          "tmax_f": 43.6,
-          "tavg_f": 33.9,
-          "prcp_in": 1.19
-        },
-        {
-          "month": 12,
-          "tmin_f": 12.5,
-          "tmax_f": 30.4,
-          "tavg_f": 21.5,
-          "prcp_in": 0.84
-        }
-      ],
-      "station": "USC00397666 \u2014 SIOUX FALLS WFO AP (2.6 mi)",
-      "air": {
-        "aqi": 22,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 98.7,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 5,
-        "compliance_pct": 95,
-        "score": 95,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 52.3,
-        "score": 47.7,
-        "warm_avg_f": 67.6,
-        "warm_precip_in": 18.0,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1993,
-        "score": 73.8,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 82.4,
-      "previous_score": 82.4,
-      "change": 0.0,
-      "rank": 1
-    },
-    {
-      "city": "Austin",
-      "state": "TX",
-      "state_name": "Texas",
-      "slug": "austin-tx",
-      "lat": 30.27,
-      "lon": -97.74,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 37.0,
-          "tmax_f": 59.2,
-          "tavg_f": 48.1,
-          "prcp_in": 0
-        },
-        {
-          "month": 2,
-          "tmin_f": 41.0,
-          "tmax_f": 64.3,
-          "tavg_f": 52.6,
-          "prcp_in": 0
-        },
-        {
-          "month": 3,
-          "tmin_f": 47.8,
-          "tmax_f": 72.9,
-          "tavg_f": 60.3,
-          "prcp_in": 0
-        },
-        {
-          "month": 4,
-          "tmin_f": 54.4,
-          "tmax_f": 79.4,
-          "tavg_f": 66.9,
-          "prcp_in": 0
-        },
-        {
-          "month": 5,
-          "tmin_f": 63.3,
-          "tmax_f": 85.6,
-          "tavg_f": 74.4,
-          "prcp_in": 0
-        },
-        {
-          "month": 6,
-          "tmin_f": 69.7,
-          "tmax_f": 92.9,
-          "tavg_f": 81.3,
-          "prcp_in": 0
-        },
-        {
-          "month": 7,
-          "tmin_f": 71.8,
-          "tmax_f": 95.7,
-          "tavg_f": 83.8,
-          "prcp_in": 0
-        },
-        {
-          "month": 8,
-          "tmin_f": 71.5,
-          "tmax_f": 96.5,
-          "tavg_f": 84.0,
-          "prcp_in": 0
-        },
-        {
-          "month": 9,
-          "tmin_f": 66.2,
-          "tmax_f": 90.5,
-          "tavg_f": 78.4,
-          "prcp_in": 0
-        },
-        {
-          "month": 10,
-          "tmin_f": 55.4,
-          "tmax_f": 81.3,
-          "tavg_f": 68.4,
-          "prcp_in": 0
-        },
-        {
-          "month": 11,
-          "tmin_f": 46.0,
-          "tmax_f": 71.1,
-          "tavg_f": 58.6,
-          "prcp_in": 0
-        },
-        {
-          "month": 12,
-          "tmin_f": 38.7,
-          "tmax_f": 62.5,
-          "tavg_f": 50.6,
-          "prcp_in": 0
-        }
-      ],
-      "station": "USC00410431 \u2014 AUSTIN 6S (3.2 mi)",
-      "air": {
-        "aqi": 36,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 89.3,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 9,
-        "compliance_pct": 91,
-        "score": 91,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 39.9,
-        "score": 60.1,
-        "warm_avg_f": 80.4,
-        "warm_precip_in": 0,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1994,
-        "score": 74.7,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 81.0,
-      "previous_score": 81.0,
-      "change": 0.0,
-      "rank": 2
-    },
-    {
-      "city": "Cheyenne",
-      "state": "WY",
-      "state_name": "Wyoming",
-      "slug": "cheyenne-wy",
-      "lat": 41.14,
-      "lon": -104.82,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 18.4,
-          "tmax_f": 40.0,
-          "tavg_f": 29.2,
-          "prcp_in": 0.35
-        },
-        {
-          "month": 2,
-          "tmin_f": 18.4,
-          "tmax_f": 40.6,
-          "tavg_f": 29.5,
-          "prcp_in": 0.52
-        },
-        {
-          "month": 3,
-          "tmin_f": 25.1,
-          "tmax_f": 49.1,
-          "tavg_f": 37.1,
-          "prcp_in": 0.96
-        },
-        {
-          "month": 4,
-          "tmin_f": 30.8,
-          "tmax_f": 54.8,
-          "tavg_f": 42.8,
-          "prcp_in": 1.79
-        },
-        {
-          "month": 5,
-          "tmin_f": 40.2,
-          "tmax_f": 64.4,
-          "tavg_f": 52.3,
-          "prcp_in": 2.44
-        },
-        {
-          "month": 6,
-          "tmin_f": 49.4,
-          "tmax_f": 76.7,
-          "tavg_f": 63.1,
-          "prcp_in": 2.16
-        },
-        {
-          "month": 7,
-          "tmin_f": 56.1,
-          "tmax_f": 84.1,
-          "tavg_f": 70.1,
-          "prcp_in": 2.11
-        },
-        {
-          "month": 8,
-          "tmin_f": 54.3,
-          "tmax_f": 82.0,
-          "tavg_f": 68.1,
-          "prcp_in": 1.52
-        },
-        {
-          "month": 9,
-          "tmin_f": 45.8,
-          "tmax_f": 73.3,
-          "tavg_f": 59.6,
-          "prcp_in": 1.47
-        },
-        {
-          "month": 10,
-          "tmin_f": 33.9,
-          "tmax_f": 59.1,
-          "tavg_f": 46.5,
-          "prcp_in": 1.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 24.7,
-          "tmax_f": 47.5,
-          "tavg_f": 36.1,
-          "prcp_in": 0.61
-        },
-        {
-          "month": 12,
-          "tmin_f": 18.1,
-          "tmax_f": 39.3,
-          "tavg_f": 28.7,
-          "prcp_in": 0.48
-        }
-      ],
-      "station": "USW00024018 \u2014 CHEYENNE (1.1 mi)",
-      "air": {
-        "aqi": 41,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 85.9,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 5,
-        "compliance_pct": 95,
-        "score": 95,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 29.5,
-        "score": 70.5,
-        "warm_avg_f": 62.6,
-        "warm_precip_in": 9.7,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1976,
-        "score": 58.1,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 80.0,
-      "previous_score": 80.0,
-      "change": 0.0,
-      "rank": 3
-    },
-    {
-      "city": "Spokane",
-      "state": "WA",
-      "state_name": "Washington",
-      "slug": "spokane-wa",
-      "lat": 47.66,
-      "lon": -117.43,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 24.7,
-          "tmax_f": 34.5,
-          "tavg_f": 29.6,
-          "prcp_in": 1.97
-        },
-        {
-          "month": 2,
-          "tmin_f": 26.3,
-          "tmax_f": 39.5,
-          "tavg_f": 32.9,
-          "prcp_in": 1.44
-        },
-        {
-          "month": 3,
-          "tmin_f": 31.5,
-          "tmax_f": 48.6,
-          "tavg_f": 40.0,
-          "prcp_in": 1.83
-        },
-        {
-          "month": 4,
-          "tmin_f": 37.0,
-          "tmax_f": 56.9,
-          "tavg_f": 47.0,
-          "prcp_in": 1.25
-        },
-        {
-          "month": 5,
-          "tmin_f": 44.9,
-          "tmax_f": 67.1,
-          "tavg_f": 56.0,
-          "prcp_in": 1.55
-        },
-        {
-          "month": 6,
-          "tmin_f": 50.8,
-          "tmax_f": 73.7,
-          "tavg_f": 62.3,
-          "prcp_in": 1.17
-        },
-        {
-          "month": 7,
-          "tmin_f": 57.6,
-          "tmax_f": 84.4,
-          "tavg_f": 71.0,
-          "prcp_in": 0.42
-        },
-        {
-          "month": 8,
-          "tmin_f": 56.7,
-          "tmax_f": 83.8,
-          "tavg_f": 70.3,
-          "prcp_in": 0.47
-        },
-        {
-          "month": 9,
-          "tmin_f": 48.6,
-          "tmax_f": 73.6,
-          "tavg_f": 61.1,
-          "prcp_in": 0.58
-        },
-        {
-          "month": 10,
-          "tmin_f": 38.0,
-          "tmax_f": 57.7,
-          "tavg_f": 47.9,
-          "prcp_in": 1.37
-        },
-        {
-          "month": 11,
-          "tmin_f": 30.3,
-          "tmax_f": 42.3,
-          "tavg_f": 36.3,
-          "prcp_in": 2.06
-        },
-        {
-          "month": 12,
-          "tmin_f": 24.3,
-          "tmax_f": 33.8,
-          "tavg_f": 29.1,
-          "prcp_in": 2.34
-        }
-      ],
-      "station": "USW00024157 \u2014 SPOKANE INTL AP (5.3 mi)",
-      "air": {
-        "aqi": 22,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 98.7,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 18,
-        "compliance_pct": 82,
-        "score": 82,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 21.9,
-        "score": 78.1,
-        "warm_avg_f": 64.1,
-        "warm_precip_in": 4.2,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1961,
-        "score": 44.3,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 78.7,
-      "previous_score": 78.7,
-      "change": 0.0,
-      "rank": 4
-    },
-    {
-      "city": "San Antonio",
-      "state": "TX",
-      "state_name": "Texas",
-      "slug": "san-antonio-tx",
-      "lat": 29.42,
-      "lon": -98.49,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 40.2,
-          "tmax_f": 63.2,
-          "tavg_f": 51.7,
-          "prcp_in": 2.21
-        },
-        {
-          "month": 2,
-          "tmin_f": 43.8,
-          "tmax_f": 67.5,
-          "tavg_f": 55.6,
-          "prcp_in": 1.87
-        },
-        {
-          "month": 3,
-          "tmin_f": 51.0,
-          "tmax_f": 73.8,
-          "tavg_f": 62.4,
-          "prcp_in": 2.38
-        },
-        {
-          "month": 4,
-          "tmin_f": 57.4,
-          "tmax_f": 80.1,
-          "tavg_f": 68.7,
-          "prcp_in": 2.32
-        },
-        {
-          "month": 5,
-          "tmin_f": 65.7,
-          "tmax_f": 85.7,
-          "tavg_f": 75.7,
-          "prcp_in": 4.38
-        },
-        {
-          "month": 6,
-          "tmin_f": 72.0,
-          "tmax_f": 91.7,
-          "tavg_f": 81.9,
-          "prcp_in": 3.55
-        },
-        {
-          "month": 7,
-          "tmin_f": 74.1,
-          "tmax_f": 94.0,
-          "tavg_f": 84.1,
-          "prcp_in": 2.41
-        },
-        {
-          "month": 8,
-          "tmin_f": 74.1,
-          "tmax_f": 95.3,
-          "tavg_f": 84.7,
-          "prcp_in": 2.43
-        },
-        {
-          "month": 9,
-          "tmin_f": 68.8,
-          "tmax_f": 89.5,
-          "tavg_f": 79.2,
-          "prcp_in": 3.9
-        },
-        {
-          "month": 10,
-          "tmin_f": 59.2,
-          "tmax_f": 81.7,
-          "tavg_f": 70.5,
-          "prcp_in": 3.93
-        },
-        {
-          "month": 11,
-          "tmin_f": 49.0,
-          "tmax_f": 71.4,
-          "tavg_f": 60.2,
-          "prcp_in": 2.48
-        },
-        {
-          "month": 12,
-          "tmin_f": 41.4,
-          "tmax_f": 64.2,
-          "tavg_f": 52.8,
-          "prcp_in": 2.11
-        }
-      ],
-      "station": "USC00417947 \u2014 SAN ANTONIO INCARNATE WORD (3.6 mi)",
-      "air": {
-        "aqi": 28,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 94.6,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 9,
-        "compliance_pct": 91,
-        "score": 91,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 71.1,
-        "score": 28.9,
-        "warm_avg_f": 81.1,
-        "warm_precip_in": 16.7,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1985,
-        "score": 66.4,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 74.7,
-      "previous_score": 74.7,
-      "change": 0.0,
-      "rank": 5
-    },
-    {
-      "city": "Charleston",
-      "state": "SC",
-      "state_name": "South Carolina",
-      "slug": "charleston-sc",
-      "lat": 32.78,
-      "lon": -79.93,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 43.6,
-          "tmax_f": 58.0,
-          "tavg_f": 50.8,
-          "prcp_in": 2.56
-        },
-        {
-          "month": 2,
-          "tmin_f": 46.1,
-          "tmax_f": 60.3,
-          "tavg_f": 53.2,
-          "prcp_in": 2.56
-        },
-        {
-          "month": 3,
-          "tmin_f": 52.0,
-          "tmax_f": 65.6,
-          "tavg_f": 58.8,
-          "prcp_in": 3.03
-        },
-        {
-          "month": 4,
-          "tmin_f": 59.7,
-          "tmax_f": 72.3,
-          "tavg_f": 66.0,
-          "prcp_in": 2.96
-        },
-        {
-          "month": 5,
-          "tmin_f": 68.0,
-          "tmax_f": 79.0,
-          "tavg_f": 73.5,
-          "prcp_in": 2.58
-        },
-        {
-          "month": 6,
-          "tmin_f": 74.2,
-          "tmax_f": 84.3,
-          "tavg_f": 79.2,
-          "prcp_in": 4.85
-        },
-        {
-          "month": 7,
-          "tmin_f": 77.1,
-          "tmax_f": 87.5,
-          "tavg_f": 82.3,
-          "prcp_in": 5.08
-        },
-        {
-          "month": 8,
-          "tmin_f": 76.5,
-          "tmax_f": 86.4,
-          "tavg_f": 81.4,
-          "prcp_in": 6.11
-        },
-        {
-          "month": 9,
-          "tmin_f": 72.5,
-          "tmax_f": 82.6,
-          "tavg_f": 77.6,
-          "prcp_in": 5.25
-        },
-        {
-          "month": 10,
-          "tmin_f": 63.2,
-          "tmax_f": 75.6,
-          "tavg_f": 69.4,
-          "prcp_in": 4.07
-        },
-        {
-          "month": 11,
-          "tmin_f": 53.1,
-          "tmax_f": 67.1,
-          "tavg_f": 60.1,
-          "prcp_in": 2.3
-        },
-        {
-          "month": 12,
-          "tmin_f": 46.8,
-          "tmax_f": 60.9,
-          "tavg_f": 53.8,
-          "prcp_in": 2.91
-        }
-      ],
-      "station": "USW00013782 \u2014 DWTN CHARLESTON (0.5 mi)",
-      "air": {
-        "aqi": 48,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 81.2,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 1,
-        "compliance_pct": 99,
-        "score": 99,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 80.4,
-        "score": 19.6,
-        "warm_avg_f": 78.8,
-        "warm_precip_in": 23.9,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1995,
-        "score": 75.6,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 73.1,
-      "previous_score": 73.1,
-      "change": 0.0,
-      "rank": 6
-    },
-    {
-      "city": "Salt Lake City",
-      "state": "UT",
-      "state_name": "Utah",
-      "slug": "salt-lake-city-ut",
-      "lat": 40.76,
-      "lon": -111.89,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 27.6,
-          "tmax_f": 39.7,
-          "tavg_f": 33.7,
-          "prcp_in": 1.54
-        },
-        {
-          "month": 2,
-          "tmin_f": 31.4,
-          "tmax_f": 45.8,
-          "tavg_f": 38.6,
-          "prcp_in": 1.45
-        },
-        {
-          "month": 3,
-          "tmin_f": 38.7,
-          "tmax_f": 55.8,
-          "tavg_f": 47.3,
-          "prcp_in": 2.04
-        },
-        {
-          "month": 4,
-          "tmin_f": 44.0,
-          "tmax_f": 62.1,
-          "tavg_f": 53.0,
-          "prcp_in": 2.54
-        },
-        {
-          "month": 5,
-          "tmin_f": 52.0,
-          "tmax_f": 72.3,
-          "tavg_f": 62.1,
-          "prcp_in": 2.09
-        },
-        {
-          "month": 6,
-          "tmin_f": 60.5,
-          "tmax_f": 82.7,
-          "tavg_f": 71.6,
-          "prcp_in": 1.06
-        },
-        {
-          "month": 7,
-          "tmin_f": 69.9,
-          "tmax_f": 91.4,
-          "tavg_f": 80.6,
-          "prcp_in": 0.55
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.9,
-          "tmax_f": 89.7,
-          "tavg_f": 78.8,
-          "prcp_in": 0.61
-        },
-        {
-          "month": 9,
-          "tmin_f": 58.2,
-          "tmax_f": 79.8,
-          "tavg_f": 69.0,
-          "prcp_in": 1.3
-        },
-        {
-          "month": 10,
-          "tmin_f": 46.6,
-          "tmax_f": 65.9,
-          "tavg_f": 56.3,
-          "prcp_in": 1.39
-        },
-        {
-          "month": 11,
-          "tmin_f": 36.6,
-          "tmax_f": 51.7,
-          "tavg_f": 44.2,
-          "prcp_in": 1.6
-        },
-        {
-          "month": 12,
-          "tmin_f": 28.3,
-          "tmax_f": 40.5,
-          "tavg_f": 34.4,
-          "prcp_in": 1.55
-        }
-      ],
-      "station": "USC00427606 \u2014 SALT LAKE TRIAD CTR (0.8 mi)",
-      "air": {
-        "aqi": 61,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 73.4,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 6,
-        "compliance_pct": 94,
-        "score": 94,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 37.5,
-        "score": 62.5,
-        "warm_avg_f": 72.4,
-        "warm_precip_in": 5.6,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1965,
-        "score": 48.0,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 72.3,
-      "previous_score": 72.3,
-      "change": 0.0,
-      "rank": 7
-    },
-    {
-      "city": "Milwaukee",
-      "state": "WI",
-      "state_name": "Wisconsin",
-      "slug": "milwaukee-wi",
-      "lat": 43.04,
-      "lon": -87.91,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 17.2,
-          "tmax_f": 30.9,
-          "tavg_f": 24.0,
-          "prcp_in": 1.79
-        },
-        {
-          "month": 2,
-          "tmin_f": 20.0,
-          "tmax_f": 34.2,
-          "tavg_f": 27.1,
-          "prcp_in": 1.69
-        },
-        {
-          "month": 3,
-          "tmin_f": 28.7,
-          "tmax_f": 44.2,
-          "tavg_f": 36.4,
-          "prcp_in": 2.2
-        },
-        {
-          "month": 4,
-          "tmin_f": 37.8,
-          "tmax_f": 54.7,
-          "tavg_f": 46.3,
-          "prcp_in": 3.86
-        },
-        {
-          "month": 5,
-          "tmin_f": 47.8,
-          "tmax_f": 66.5,
-          "tavg_f": 57.1,
-          "prcp_in": 3.54
-        },
-        {
-          "month": 6,
-          "tmin_f": 58.4,
-          "tmax_f": 76.8,
-          "tavg_f": 67.6,
-          "prcp_in": 4.38
-        },
-        {
-          "month": 7,
-          "tmin_f": 64.7,
-          "tmax_f": 81.9,
-          "tavg_f": 73.3,
-          "prcp_in": 3.4
-        },
-        {
-          "month": 8,
-          "tmin_f": 64.2,
-          "tmax_f": 80.3,
-          "tavg_f": 72.3,
-          "prcp_in": 3.65
-        },
-        {
-          "month": 9,
-          "tmin_f": 56.4,
-          "tmax_f": 73.5,
-          "tavg_f": 65.0,
-          "prcp_in": 3.16
-        },
-        {
-          "month": 10,
-          "tmin_f": 44.7,
-          "tmax_f": 61.3,
-          "tavg_f": 53.0,
-          "prcp_in": 2.78
-        },
-        {
-          "month": 11,
-          "tmin_f": 33.1,
-          "tmax_f": 47.8,
-          "tavg_f": 40.4,
-          "prcp_in": 2.24
-        },
-        {
-          "month": 12,
-          "tmin_f": 23.0,
-          "tmax_f": 36.1,
-          "tavg_f": 29.5,
-          "prcp_in": 1.88
-        }
-      ],
-      "station": "USW00014839 \u2014 MILWAUKEE MITCHELL AP (5.9 mi)",
-      "air": {
-        "aqi": 30,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 93.3,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 10,
-        "compliance_pct": 90,
-        "score": 90,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 51.6,
-        "score": 48.4,
-        "warm_avg_f": 67.1,
-        "warm_precip_in": 18.1,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1953,
-        "score": 37.0,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 72.1,
-      "previous_score": 72.1,
-      "change": 0.0,
-      "rank": 8
-    },
-    {
-      "city": "Seattle",
-      "state": "WA",
-      "state_name": "Washington",
-      "slug": "seattle-wa",
-      "lat": 47.61,
-      "lon": -122.33,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 36.8,
-          "tmax_f": 48.6,
-          "tavg_f": 42.7,
-          "prcp_in": 5.21
-        },
-        {
-          "month": 2,
-          "tmin_f": 36.8,
-          "tmax_f": 50.7,
-          "tavg_f": 43.7,
-          "prcp_in": 3.71
-        },
-        {
-          "month": 3,
-          "tmin_f": 39.4,
-          "tmax_f": 54.8,
-          "tavg_f": 47.1,
-          "prcp_in": 3.94
-        },
-        {
-          "month": 4,
-          "tmin_f": 43.6,
-          "tmax_f": 59.8,
-          "tavg_f": 51.7,
-          "prcp_in": 2.89
-        },
-        {
-          "month": 5,
-          "tmin_f": 49.3,
-          "tmax_f": 66.5,
-          "tavg_f": 57.9,
-          "prcp_in": 1.98
-        },
-        {
-          "month": 6,
-          "tmin_f": 54.0,
-          "tmax_f": 71.2,
-          "tavg_f": 62.6,
-          "prcp_in": 1.22
-        },
-        {
-          "month": 7,
-          "tmin_f": 57.5,
-          "tmax_f": 77.3,
-          "tavg_f": 67.4,
-          "prcp_in": 0.56
-        },
-        {
-          "month": 8,
-          "tmin_f": 58.1,
-          "tmax_f": 77.4,
-          "tavg_f": 67.8,
-          "prcp_in": 0.83
-        },
-        {
-          "month": 9,
-          "tmin_f": 53.9,
-          "tmax_f": 71.7,
-          "tavg_f": 62.8,
-          "prcp_in": 1.37
-        },
-        {
-          "month": 10,
-          "tmin_f": 46.4,
-          "tmax_f": 61.0,
-          "tavg_f": 53.7,
-          "prcp_in": 3.49
-        },
-        {
-          "month": 11,
-          "tmin_f": 39.9,
-          "tmax_f": 53.0,
-          "tavg_f": 46.4,
-          "prcp_in": 5.8
-        },
-        {
-          "month": 12,
-          "tmin_f": 36.2,
-          "tmax_f": 47.8,
-          "tavg_f": 42.0,
-          "prcp_in": 5.49
-        }
-      ],
-      "station": "USW00024234 \u2014 SEATTLE BOEING FLD (4.5 mi)",
-      "air": {
-        "aqi": 68,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 69.2,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 18,
-        "compliance_pct": 82,
-        "score": 82,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 24.4,
-        "score": 75.6,
-        "warm_avg_f": 63.7,
-        "warm_precip_in": 6.0,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1976,
-        "score": 58.1,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 72.1,
-      "previous_score": 72.1,
-      "change": 0.0,
-      "rank": 9
-    },
-    {
-      "city": "El Paso",
-      "state": "TX",
-      "state_name": "Texas",
-      "slug": "el-paso-tx",
-      "lat": 31.76,
-      "lon": -106.49,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 34.5,
-          "tmax_f": 58.6,
-          "tavg_f": 46.5,
-          "prcp_in": 0.39
-        },
-        {
-          "month": 2,
-          "tmin_f": 38.9,
-          "tmax_f": 64.1,
-          "tavg_f": 51.5,
-          "prcp_in": 0.4
-        },
-        {
-          "month": 3,
-          "tmin_f": 45.5,
-          "tmax_f": 71.9,
-          "tavg_f": 58.7,
-          "prcp_in": 0.24
-        },
-        {
-          "month": 4,
-          "tmin_f": 53.3,
-          "tmax_f": 80.0,
-          "tavg_f": 66.6,
-          "prcp_in": 0.17
-        },
-        {
-          "month": 5,
-          "tmin_f": 62.1,
-          "tmax_f": 88.7,
-          "tavg_f": 75.4,
-          "prcp_in": 0.43
-        },
-        {
-          "month": 6,
-          "tmin_f": 70.6,
-          "tmax_f": 97.1,
-          "tavg_f": 83.9,
-          "prcp_in": 0.73
-        },
-        {
-          "month": 7,
-          "tmin_f": 73.0,
-          "tmax_f": 95.8,
-          "tavg_f": 84.4,
-          "prcp_in": 1.58
-        },
-        {
-          "month": 8,
-          "tmin_f": 71.8,
-          "tmax_f": 94.0,
-          "tavg_f": 82.9,
-          "prcp_in": 1.67
-        },
-        {
-          "month": 9,
-          "tmin_f": 65.4,
-          "tmax_f": 88.3,
-          "tavg_f": 76.9,
-          "prcp_in": 1.52
-        },
-        {
-          "month": 10,
-          "tmin_f": 54.0,
-          "tmax_f": 79.4,
-          "tavg_f": 66.7,
-          "prcp_in": 0.59
-        },
-        {
-          "month": 11,
-          "tmin_f": 42.0,
-          "tmax_f": 67.0,
-          "tavg_f": 54.5,
-          "prcp_in": 0.43
-        },
-        {
-          "month": 12,
-          "tmin_f": 34.4,
-          "tmax_f": 57.8,
-          "tavg_f": 46.1,
-          "prcp_in": 0.63
-        }
-      ],
-      "station": "USW00023044 \u2014 EL PASO INTL AP (7.5 mi)",
-      "air": {
-        "aqi": 65,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 71.0,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 9,
-        "compliance_pct": 91,
-        "score": 91,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 51.1,
-        "score": 48.9,
-        "warm_avg_f": 80.7,
-        "warm_precip_in": 5.9,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1984,
-        "score": 65.5,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 71.5,
-      "previous_score": 71.5,
-      "change": 0.0,
-      "rank": 10
-    },
-    {
-      "city": "Madison",
-      "state": "WI",
-      "state_name": "Wisconsin",
-      "slug": "madison-wi",
-      "lat": 43.07,
-      "lon": -89.4,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 11.1,
-          "tmax_f": 27.7,
-          "tavg_f": 19.4,
-          "prcp_in": 1.67
-        },
-        {
-          "month": 2,
-          "tmin_f": 14.0,
-          "tmax_f": 31.5,
-          "tavg_f": 22.8,
-          "prcp_in": 1.71
-        },
-        {
-          "month": 3,
-          "tmin_f": 24.7,
-          "tmax_f": 44.0,
-          "tavg_f": 34.4,
-          "prcp_in": 2.34
-        },
-        {
-          "month": 4,
-          "tmin_f": 35.7,
-          "tmax_f": 57.4,
-          "tavg_f": 46.5,
-          "prcp_in": 4.22
-        },
-        {
-          "month": 5,
-          "tmin_f": 47.4,
-          "tmax_f": 69.2,
-          "tavg_f": 58.3,
-          "prcp_in": 4.55
-        },
-        {
-          "month": 6,
-          "tmin_f": 57.1,
-          "tmax_f": 78.4,
-          "tavg_f": 67.7,
-          "prcp_in": 5.74
-        },
-        {
-          "month": 7,
-          "tmin_f": 61.4,
-          "tmax_f": 82.2,
-          "tavg_f": 71.8,
-          "prcp_in": 4.7
-        },
-        {
-          "month": 8,
-          "tmin_f": 59.4,
-          "tmax_f": 80.6,
-          "tavg_f": 70.0,
-          "prcp_in": 4.08
-        },
-        {
-          "month": 9,
-          "tmin_f": 50.7,
-          "tmax_f": 73.9,
-          "tavg_f": 62.3,
-          "prcp_in": 3.92
-        },
-        {
-          "month": 10,
-          "tmin_f": 39.4,
-          "tmax_f": 61.1,
-          "tavg_f": 50.2,
-          "prcp_in": 2.99
-        },
-        {
-          "month": 11,
-          "tmin_f": 28.5,
-          "tmax_f": 46.1,
-          "tavg_f": 37.3,
-          "prcp_in": 2.34
-        },
-        {
-          "month": 12,
-          "tmin_f": 17.8,
-          "tmax_f": 33.0,
-          "tavg_f": 25.4,
-          "prcp_in": 1.92
-        }
-      ],
-      "station": "USC00470273 \u2014 UW ARBORETUM - MADISON (2.5 mi)",
-      "air": {
-        "aqi": 52,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 78.8,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 10,
-        "compliance_pct": 90,
-        "score": 90,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 58.7,
-        "score": 41.3,
-        "warm_avg_f": 66.0,
-        "warm_precip_in": 23.0,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1980,
-        "score": 61.8,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 71.3,
-      "previous_score": 71.3,
-      "change": 0.0,
-      "rank": 11
-    },
-    {
-      "city": "Nashville",
-      "state": "TN",
-      "state_name": "Tennessee",
-      "slug": "nashville-tn",
-      "lat": 36.16,
-      "lon": -86.78,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 27.5,
-          "tmax_f": 48.0,
-          "tavg_f": 37.8,
-          "prcp_in": 4.7
-        },
-        {
-          "month": 2,
-          "tmin_f": 31.2,
-          "tmax_f": 52.2,
-          "tavg_f": 41.7,
-          "prcp_in": 4.6
-        },
-        {
-          "month": 3,
-          "tmin_f": 38.6,
-          "tmax_f": 61.9,
-          "tavg_f": 50.2,
-          "prcp_in": 5.38
-        },
-        {
-          "month": 4,
-          "tmin_f": 47.4,
-          "tmax_f": 72.0,
-          "tavg_f": 59.7,
-          "prcp_in": 4.81
-        },
-        {
-          "month": 5,
-          "tmin_f": 55.7,
-          "tmax_f": 79.9,
-          "tavg_f": 67.8,
-          "prcp_in": 5.3
-        },
-        {
-          "month": 6,
-          "tmin_f": 63.9,
-          "tmax_f": 86.7,
-          "tavg_f": 75.3,
-          "prcp_in": 4.33
-        },
-        {
-          "month": 7,
-          "tmin_f": 67.9,
-          "tmax_f": 89.3,
-          "tavg_f": 78.6,
-          "prcp_in": 4.33
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.0,
-          "tmax_f": 88.6,
-          "tavg_f": 77.8,
-          "prcp_in": 3.72
-        },
-        {
-          "month": 9,
-          "tmin_f": 59.3,
-          "tmax_f": 83.6,
-          "tavg_f": 71.5,
-          "prcp_in": 4.22
-        },
-        {
-          "month": 10,
-          "tmin_f": 47.2,
-          "tmax_f": 73.2,
-          "tavg_f": 60.2,
-          "prcp_in": 3.77
-        },
-        {
-          "month": 11,
-          "tmin_f": 36.7,
-          "tmax_f": 61.6,
-          "tavg_f": 49.1,
-          "prcp_in": 3.8
-        },
-        {
-          "month": 12,
-          "tmin_f": 31.7,
-          "tmax_f": 51.1,
-          "tavg_f": 41.4,
-          "prcp_in": 4.28
-        }
-      ],
-      "station": "USC00408238 \u2014 SHELBY BOTTOMS NATURE CTR (3.1 mi)",
-      "air": {
-        "aqi": 22,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 98.7,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 12,
-        "compliance_pct": 88,
-        "score": 88,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 69.6,
-        "score": 30.4,
-        "warm_avg_f": 74.2,
-        "warm_precip_in": 21.9,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1962,
-        "score": 45.2,
-        "source": "Starter preview"
-      },
-      "score": 71.1,
-      "previous_score": 71.1,
-      "change": 0.0,
-      "rank": 12
-    },
-    {
-      "city": "Virginia Beach",
-      "state": "VA",
-      "state_name": "Virginia",
-      "slug": "virginia-beach-va",
-      "lat": 36.85,
-      "lon": -75.98,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 31.6,
-          "tmax_f": 50.3,
-          "tavg_f": 40.9,
-          "prcp_in": 3.17
-        },
-        {
-          "month": 2,
-          "tmin_f": 33.2,
-          "tmax_f": 52.6,
-          "tavg_f": 42.9,
-          "prcp_in": 2.84
-        },
-        {
-          "month": 3,
-          "tmin_f": 38.9,
-          "tmax_f": 58.6,
-          "tavg_f": 48.8,
-          "prcp_in": 3.57
-        },
-        {
-          "month": 4,
-          "tmin_f": 47.7,
-          "tmax_f": 68.6,
-          "tavg_f": 58.2,
-          "prcp_in": 3.37
-        },
-        {
-          "month": 5,
-          "tmin_f": 56.3,
-          "tmax_f": 75.5,
-          "tavg_f": 65.9,
-          "prcp_in": 3.65
-        },
-        {
-          "month": 6,
-          "tmin_f": 65.5,
-          "tmax_f": 83.3,
-          "tavg_f": 74.4,
-          "prcp_in": 4.15
-        },
-        {
-          "month": 7,
-          "tmin_f": 70.3,
-          "tmax_f": 87.4,
-          "tavg_f": 78.9,
-          "prcp_in": 5.76
-        },
-        {
-          "month": 8,
-          "tmin_f": 69.1,
-          "tmax_f": 85.4,
-          "tavg_f": 77.2,
-          "prcp_in": 5.09
-        },
-        {
-          "month": 9,
-          "tmin_f": 64.0,
-          "tmax_f": 79.9,
-          "tavg_f": 71.9,
-          "prcp_in": 4.55
-        },
-        {
-          "month": 10,
-          "tmin_f": 52.7,
-          "tmax_f": 71.2,
-          "tavg_f": 61.9,
-          "prcp_in": 4.15
-        },
-        {
-          "month": 11,
-          "tmin_f": 41.5,
-          "tmax_f": 61.3,
-          "tavg_f": 51.4,
-          "prcp_in": 3.06
-        },
-        {
-          "month": 12,
-          "tmin_f": 35.4,
-          "tmax_f": 54.0,
-          "tavg_f": 44.7,
-          "prcp_in": 3.26
-        }
-      ],
-      "station": "USW00013769 \u2014 OCEANA NAS (3.7 mi)",
-      "air": {
-        "aqi": 54,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 77.6,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 4,
-        "compliance_pct": 96,
-        "score": 96,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 71.1,
-        "score": 28.9,
-        "warm_avg_f": 73.7,
-        "warm_precip_in": 23.2,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1984,
-        "score": 65.5,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 71.0,
-      "previous_score": 71.0,
-      "change": 0.0,
-      "rank": 13
-    },
-    {
-      "city": "Dallas",
-      "state": "TX",
-      "state_name": "Texas",
-      "slug": "dallas-tx",
-      "lat": 32.78,
-      "lon": -96.8,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 37.9,
-          "tmax_f": 57.7,
-          "tavg_f": 47.8,
-          "prcp_in": 2.59
-        },
-        {
-          "month": 2,
-          "tmin_f": 41.9,
-          "tmax_f": 62.0,
-          "tavg_f": 52.0,
-          "prcp_in": 2.78
-        },
-        {
-          "month": 3,
-          "tmin_f": 49.4,
-          "tmax_f": 69.9,
-          "tavg_f": 59.6,
-          "prcp_in": 3.45
-        },
-        {
-          "month": 4,
-          "tmin_f": 56.8,
-          "tmax_f": 77.4,
-          "tavg_f": 67.1,
-          "prcp_in": 3.15
-        },
-        {
-          "month": 5,
-          "tmin_f": 66.0,
-          "tmax_f": 84.9,
-          "tavg_f": 75.4,
-          "prcp_in": 4.57
-        },
-        {
-          "month": 6,
-          "tmin_f": 73.8,
-          "tmax_f": 92.7,
-          "tavg_f": 83.3,
-          "prcp_in": 3.83
-        },
-        {
-          "month": 7,
-          "tmin_f": 77.7,
-          "tmax_f": 96.9,
-          "tavg_f": 87.3,
-          "prcp_in": 1.71
-        },
-        {
-          "month": 8,
-          "tmin_f": 77.4,
-          "tmax_f": 97.1,
-          "tavg_f": 87.3,
-          "prcp_in": 2.19
-        },
-        {
-          "month": 9,
-          "tmin_f": 70.1,
-          "tmax_f": 90.0,
-          "tavg_f": 80.1,
-          "prcp_in": 3.1
-        },
-        {
-          "month": 10,
-          "tmin_f": 58.7,
-          "tmax_f": 79.5,
-          "tavg_f": 69.1,
-          "prcp_in": 4.79
-        },
-        {
-          "month": 11,
-          "tmin_f": 47.8,
-          "tmax_f": 67.8,
-          "tavg_f": 57.8,
-          "prcp_in": 2.93
-        },
-        {
-          "month": 12,
-          "tmin_f": 39.8,
-          "tmax_f": 59.2,
-          "tavg_f": 49.5,
-          "prcp_in": 3.23
-        }
-      ],
-      "station": "USW00013960 \u2014 DALLAS FAA AP (4.5 mi)",
-      "air": {
-        "aqi": 46,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 82.6,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 9,
-        "compliance_pct": 91,
-        "score": 91,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 71.2,
-        "score": 28.8,
-        "warm_avg_f": 82.7,
-        "warm_precip_in": 15.4,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1981,
-        "score": 62.7,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 70.4,
-      "previous_score": 70.4,
-      "change": 0.0,
-      "rank": 14
-    },
-    {
-      "city": "Richmond",
-      "state": "VA",
-      "state_name": "Virginia",
-      "slug": "richmond-va",
-      "lat": 37.54,
-      "lon": -77.44,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 28.8,
-          "tmax_f": 47.8,
-          "tavg_f": 38.3,
-          "prcp_in": 3.23
-        },
-        {
-          "month": 2,
-          "tmin_f": 30.4,
-          "tmax_f": 51.6,
-          "tavg_f": 41.0,
-          "prcp_in": 2.61
-        },
-        {
-          "month": 3,
-          "tmin_f": 37.2,
-          "tmax_f": 59.6,
-          "tavg_f": 48.4,
-          "prcp_in": 4.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 46.4,
-          "tmax_f": 70.4,
-          "tavg_f": 58.4,
-          "prcp_in": 3.18
-        },
-        {
-          "month": 5,
-          "tmin_f": 55.7,
-          "tmax_f": 77.8,
-          "tavg_f": 66.7,
-          "prcp_in": 4.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 64.5,
-          "tmax_f": 85.6,
-          "tavg_f": 75.0,
-          "prcp_in": 4.64
-        },
-        {
-          "month": 7,
-          "tmin_f": 69.2,
-          "tmax_f": 89.5,
-          "tavg_f": 79.4,
-          "prcp_in": 4.37
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.6,
-          "tmax_f": 87.5,
-          "tavg_f": 77.5,
-          "prcp_in": 4.9
-        },
-        {
-          "month": 9,
-          "tmin_f": 61.1,
-          "tmax_f": 81.2,
-          "tavg_f": 71.2,
-          "prcp_in": 4.61
-        },
-        {
-          "month": 10,
-          "tmin_f": 49.0,
-          "tmax_f": 70.9,
-          "tavg_f": 60.0,
-          "prcp_in": 3.39
-        },
-        {
-          "month": 11,
-          "tmin_f": 38.8,
-          "tmax_f": 60.4,
-          "tavg_f": 49.6,
-          "prcp_in": 3.06
-        },
-        {
-          "month": 12,
-          "tmin_f": 32.1,
-          "tmax_f": 51.5,
-          "tavg_f": 41.8,
-          "prcp_in": 3.51
-        }
-      ],
-      "station": "USW00013740 \u2014 RICHMOND INTL AP (6.7 mi)",
-      "air": {
-        "aqi": 44,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 83.9,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 4,
-        "compliance_pct": 96,
-        "score": 96,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 70.3,
-        "score": 29.7,
-        "warm_avg_f": 74.0,
-        "warm_precip_in": 22.5,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1959,
-        "score": 42.5,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 68.4,
-      "previous_score": 68.4,
-      "change": 0.0,
-      "rank": 15
-    },
-    {
-      "city": "Houston",
-      "state": "TX",
-      "state_name": "Texas",
-      "slug": "houston-tx",
-      "lat": 29.76,
-      "lon": -95.37,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 44.3,
-          "tmax_f": 62.8,
-          "tavg_f": 53.6,
-          "prcp_in": 4.04
-        },
-        {
-          "month": 2,
-          "tmin_f": 48.9,
-          "tmax_f": 66.7,
-          "tavg_f": 57.8,
-          "prcp_in": 2.75
-        },
-        {
-          "month": 3,
-          "tmin_f": 53.7,
-          "tmax_f": 73.3,
-          "tavg_f": 63.5,
-          "prcp_in": 3.81
-        },
-        {
-          "month": 4,
-          "tmin_f": 60.9,
-          "tmax_f": 79.2,
-          "tavg_f": 70.1,
-          "prcp_in": 5.17
-        },
-        {
-          "month": 5,
-          "tmin_f": 68.7,
-          "tmax_f": 85.7,
-          "tavg_f": 77.2,
-          "prcp_in": 5.07
-        },
-        {
-          "month": 6,
-          "tmin_f": 74.8,
-          "tmax_f": 91.3,
-          "tavg_f": 83.1,
-          "prcp_in": 7.9
-        },
-        {
-          "month": 7,
-          "tmin_f": 76.8,
-          "tmax_f": 93.2,
-          "tavg_f": 85.0,
-          "prcp_in": 4.46
-        },
-        {
-          "month": 8,
-          "tmin_f": 76.8,
-          "tmax_f": 94.3,
-          "tavg_f": 85.6,
-          "prcp_in": 3.37
-        },
-        {
-          "month": 9,
-          "tmin_f": 71.8,
-          "tmax_f": 89.8,
-          "tavg_f": 80.8,
-          "prcp_in": 4.48
-        },
-        {
-          "month": 10,
-          "tmin_f": 62.7,
-          "tmax_f": 81.9,
-          "tavg_f": 72.3,
-          "prcp_in": 5.38
-        },
-        {
-          "month": 11,
-          "tmin_f": 52.9,
-          "tmax_f": 72.0,
-          "tavg_f": 62.4,
-          "prcp_in": 3.36
-        },
-        {
-          "month": 12,
-          "tmin_f": 46.0,
-          "tmax_f": 65.2,
-          "tavg_f": 55.6,
-          "prcp_in": 4.33
-        }
-      ],
-      "station": "USC00414326 \u2014 HOUSTON-PORT (5.5 mi)",
-      "air": {
-        "aqi": 54,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 77.6,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 9,
-        "compliance_pct": 91,
-        "score": 91,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 88.0,
-        "score": 12.0,
-        "warm_avg_f": 82.3,
-        "warm_precip_in": 25.3,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1982,
-        "score": 63.6,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 65.7,
-      "previous_score": 65.7,
-      "change": 0.0,
-      "rank": 16
-    },
-    {
-      "city": "Charleston",
-      "state": "WV",
-      "state_name": "West Virginia",
-      "slug": "charleston-wv",
-      "lat": 38.35,
-      "lon": -81.63,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 26.1,
-          "tmax_f": 43.9,
-          "tavg_f": 35.0,
-          "prcp_in": 3.27
-        },
-        {
-          "month": 2,
-          "tmin_f": 28.6,
-          "tmax_f": 47.8,
-          "tavg_f": 38.2,
-          "prcp_in": 3.36
-        },
-        {
-          "month": 3,
-          "tmin_f": 35.1,
-          "tmax_f": 56.8,
-          "tavg_f": 46.0,
-          "prcp_in": 4.14
-        },
-        {
-          "month": 4,
-          "tmin_f": 44.5,
-          "tmax_f": 69.4,
-          "tavg_f": 56.9,
-          "prcp_in": 3.56
-        },
-        {
-          "month": 5,
-          "tmin_f": 53.2,
-          "tmax_f": 76.2,
-          "tavg_f": 64.7,
-          "prcp_in": 4.93
-        },
-        {
-          "month": 6,
-          "tmin_f": 61.5,
-          "tmax_f": 83.1,
-          "tavg_f": 72.3,
-          "prcp_in": 4.72
-        },
-        {
-          "month": 7,
-          "tmin_f": 65.5,
-          "tmax_f": 86.0,
-          "tavg_f": 75.8,
-          "prcp_in": 5.38
-        },
-        {
-          "month": 8,
-          "tmin_f": 64.1,
-          "tmax_f": 85.2,
-          "tavg_f": 74.6,
-          "prcp_in": 3.75
-        },
-        {
-          "month": 9,
-          "tmin_f": 57.1,
-          "tmax_f": 79.5,
-          "tavg_f": 68.3,
-          "prcp_in": 3.46
-        },
-        {
-          "month": 10,
-          "tmin_f": 45.3,
-          "tmax_f": 68.7,
-          "tavg_f": 57.0,
-          "prcp_in": 2.91
-        },
-        {
-          "month": 11,
-          "tmin_f": 35.6,
-          "tmax_f": 57.3,
-          "tavg_f": 46.4,
-          "prcp_in": 3.2
-        },
-        {
-          "month": 12,
-          "tmin_f": 29.9,
-          "tmax_f": 47.5,
-          "tavg_f": 38.7,
-          "prcp_in": 3.56
-        }
-      ],
-      "station": "USW00013866 \u2014 CHARLESTON - YEAGER AP (2.9 mi)",
-      "air": {
-        "aqi": 65,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 71.0,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 2,
-        "compliance_pct": 98,
-        "score": 98,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 65.4,
-        "score": 34.6,
-        "warm_avg_f": 71.1,
-        "warm_precip_in": 22.2,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1957,
-        "score": 40.6,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 65.7,
-      "previous_score": 65.7,
-      "change": 0.0,
-      "rank": 17
-    },
-    {
-      "city": "Memphis",
-      "state": "TN",
-      "state_name": "Tennessee",
-      "slug": "memphis-tn",
-      "lat": 35.15,
-      "lon": -90.05,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 33.3,
-          "tmax_f": 50.9,
-          "tavg_f": 42.1,
-          "prcp_in": 4.14
-        },
-        {
-          "month": 2,
-          "tmin_f": 36.7,
-          "tmax_f": 55.5,
-          "tavg_f": 46.1,
-          "prcp_in": 4.55
-        },
-        {
-          "month": 3,
-          "tmin_f": 44.3,
-          "tmax_f": 64.2,
-          "tavg_f": 54.2,
-          "prcp_in": 5.74
-        },
-        {
-          "month": 4,
-          "tmin_f": 53.0,
-          "tmax_f": 73.4,
-          "tavg_f": 63.2,
-          "prcp_in": 5.87
-        },
-        {
-          "month": 5,
-          "tmin_f": 62.4,
-          "tmax_f": 81.7,
-          "tavg_f": 72.1,
-          "prcp_in": 5.27
-        },
-        {
-          "month": 6,
-          "tmin_f": 70.4,
-          "tmax_f": 89.4,
-          "tavg_f": 79.9,
-          "prcp_in": 3.99
-        },
-        {
-          "month": 7,
-          "tmin_f": 73.6,
-          "tmax_f": 91.9,
-          "tavg_f": 82.8,
-          "prcp_in": 4.82
-        },
-        {
-          "month": 8,
-          "tmin_f": 72.6,
-          "tmax_f": 91.5,
-          "tavg_f": 82.1,
-          "prcp_in": 3.37
-        },
-        {
-          "month": 9,
-          "tmin_f": 65.9,
-          "tmax_f": 86.0,
-          "tavg_f": 76.0,
-          "prcp_in": 3.03
-        },
-        {
-          "month": 10,
-          "tmin_f": 54.0,
-          "tmax_f": 75.1,
-          "tavg_f": 64.6,
-          "prcp_in": 3.98
-        },
-        {
-          "month": 11,
-          "tmin_f": 42.9,
-          "tmax_f": 62.6,
-          "tavg_f": 52.7,
-          "prcp_in": 4.69
-        },
-        {
-          "month": 12,
-          "tmin_f": 36.2,
-          "tmax_f": 53.4,
-          "tavg_f": 44.8,
-          "prcp_in": 5.49
-        }
-      ],
-      "station": "USW00013893 \u2014 MEMPHIS INTL AP (7.4 mi)",
-      "air": {
-        "aqi": 54,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 77.6,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 12,
-        "compliance_pct": 88,
-        "score": 88,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 73.9,
-        "score": 26.1,
-        "warm_avg_f": 78.6,
-        "warm_precip_in": 20.5,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1970,
-        "score": 52.6,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 65.4,
-      "previous_score": 65.4,
-      "change": 0.0,
-      "rank": 18
-    },
-    {
-      "city": "Burlington",
-      "state": "VT",
-      "state_name": "Vermont",
-      "slug": "burlington-vt",
-      "lat": 44.48,
-      "lon": -73.21,
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 12.9,
-          "tmax_f": 28.9,
-          "tavg_f": 20.9,
-          "prcp_in": 2.13
-        },
-        {
-          "month": 2,
-          "tmin_f": 14.3,
-          "tmax_f": 31.5,
-          "tavg_f": 22.9,
-          "prcp_in": 1.77
-        },
-        {
-          "month": 3,
-          "tmin_f": 23.6,
-          "tmax_f": 40.9,
-          "tavg_f": 32.3,
-          "prcp_in": 2.24
-        },
-        {
-          "month": 4,
-          "tmin_f": 35.9,
-          "tmax_f": 55.3,
-          "tavg_f": 45.6,
-          "prcp_in": 3.07
-        },
-        {
-          "month": 5,
-          "tmin_f": 47.8,
-          "tmax_f": 69.0,
-          "tavg_f": 58.4,
-          "prcp_in": 3.76
-        },
-        {
-          "month": 6,
-          "tmin_f": 57.3,
-          "tmax_f": 77.6,
-          "tavg_f": 67.5,
-          "prcp_in": 4.26
-        },
-        {
-          "month": 7,
-          "tmin_f": 62.4,
-          "tmax_f": 82.4,
-          "tavg_f": 72.4,
-          "prcp_in": 4.06
-        },
-        {
-          "month": 8,
-          "tmin_f": 60.7,
-          "tmax_f": 80.7,
-          "tavg_f": 70.7,
-          "prcp_in": 3.54
-        },
-        {
-          "month": 9,
-          "tmin_f": 52.9,
-          "tmax_f": 72.6,
-          "tavg_f": 62.7,
-          "prcp_in": 3.67
-        },
-        {
-          "month": 10,
-          "tmin_f": 41.8,
-          "tmax_f": 58.9,
-          "tavg_f": 50.3,
-          "prcp_in": 3.83
-        },
-        {
-          "month": 11,
-          "tmin_f": 32.1,
-          "tmax_f": 46.4,
-          "tavg_f": 39.3,
-          "prcp_in": 2.7
-        },
-        {
-          "month": 12,
-          "tmin_f": 21.3,
-          "tmax_f": 35.0,
-          "tavg_f": 28.2,
-          "prcp_in": 2.5
-        }
-      ],
-      "station": "USW00014742 \u2014 BURLINGTON INTL AP (3.1 mi)",
-      "air": {
-        "aqi": 68,
-        "category": "Preview",
-        "reporting_area": "Preview only",
-        "score": 69.2,
-        "source": "Starter preview"
-      },
-      "water": {
-        "active_cws": 100,
-        "health_violation_cws": 14,
-        "compliance_pct": 86,
-        "score": 86,
-        "source": "Starter preview"
-      },
-      "climate": {
-        "moisture_pressure": 52.5,
-        "score": 47.5,
-        "warm_avg_f": 66.3,
-        "warm_precip_in": 19.3,
-        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
-      },
-      "housing": {
-        "median_year_built": 1957,
-        "score": 40.6,
-        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
-      },
-      "score": 64.2,
-      "previous_score": 64.2,
-      "change": 0.0,
-      "rank": 19
-    },
     {
       "city": "Boise",
       "state": "ID",
@@ -2510,7 +135,7 @@
       "score": 59.4,
       "previous_score": 59.4,
       "change": 0.0,
-      "rank": 20
+      "rank": 1
     },
     {
       "city": "Reno",
@@ -2635,7 +260,7 @@
       "score": 56.8,
       "previous_score": 56.8,
       "change": 0.0,
-      "rank": 21
+      "rank": 2
     },
     {
       "city": "Las Vegas",
@@ -2760,7 +385,132 @@
       "score": 54.8,
       "previous_score": 54.8,
       "change": 0.0,
-      "rank": 22
+      "rank": 3
+    },
+    {
+      "city": "Spokane",
+      "state": "WA",
+      "state_name": "Washington",
+      "slug": "spokane-wa",
+      "lat": 47.66,
+      "lon": -117.43,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 24.7,
+          "tmax_f": 34.5,
+          "tavg_f": 29.6,
+          "prcp_in": 1.97
+        },
+        {
+          "month": 2,
+          "tmin_f": 26.3,
+          "tmax_f": 39.5,
+          "tavg_f": 32.9,
+          "prcp_in": 1.44
+        },
+        {
+          "month": 3,
+          "tmin_f": 31.5,
+          "tmax_f": 48.6,
+          "tavg_f": 40.0,
+          "prcp_in": 1.83
+        },
+        {
+          "month": 4,
+          "tmin_f": 37.0,
+          "tmax_f": 56.9,
+          "tavg_f": 47.0,
+          "prcp_in": 1.25
+        },
+        {
+          "month": 5,
+          "tmin_f": 44.9,
+          "tmax_f": 67.1,
+          "tavg_f": 56.0,
+          "prcp_in": 1.55
+        },
+        {
+          "month": 6,
+          "tmin_f": 50.8,
+          "tmax_f": 73.7,
+          "tavg_f": 62.3,
+          "prcp_in": 1.17
+        },
+        {
+          "month": 7,
+          "tmin_f": 57.6,
+          "tmax_f": 84.4,
+          "tavg_f": 71.0,
+          "prcp_in": 0.42
+        },
+        {
+          "month": 8,
+          "tmin_f": 56.7,
+          "tmax_f": 83.8,
+          "tavg_f": 70.3,
+          "prcp_in": 0.47
+        },
+        {
+          "month": 9,
+          "tmin_f": 48.6,
+          "tmax_f": 73.6,
+          "tavg_f": 61.1,
+          "prcp_in": 0.58
+        },
+        {
+          "month": 10,
+          "tmin_f": 38.0,
+          "tmax_f": 57.7,
+          "tavg_f": 47.9,
+          "prcp_in": 1.37
+        },
+        {
+          "month": 11,
+          "tmin_f": 30.3,
+          "tmax_f": 42.3,
+          "tavg_f": 36.3,
+          "prcp_in": 2.06
+        },
+        {
+          "month": 12,
+          "tmin_f": 24.3,
+          "tmax_f": 33.8,
+          "tavg_f": 29.1,
+          "prcp_in": 2.34
+        }
+      ],
+      "station": "USW00024157 \u2014 SPOKANE INTL AP (5.3 mi)",
+      "air": {
+        "aqi": 22,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 98.7,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 2376,
+        "health_violation_cws": 2376,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 21.9,
+        "score": 78.1,
+        "warm_avg_f": 64.1,
+        "warm_precip_in": 4.2,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1961,
+        "score": 44.3,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 54.1,
+      "previous_score": 78.7,
+      "change": -24.6,
+      "rank": 4
     },
     {
       "city": "Billings",
@@ -2885,7 +635,257 @@
       "score": 54.1,
       "previous_score": 54.1,
       "change": 0.0,
-      "rank": 23
+      "rank": 5
+    },
+    {
+      "city": "Sioux Falls",
+      "state": "SD",
+      "state_name": "South Dakota",
+      "slug": "sioux-falls-sd",
+      "lat": 43.55,
+      "lon": -96.73,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 7.4,
+          "tmax_f": 25.3,
+          "tavg_f": 16.4,
+          "prcp_in": 0.66
+        },
+        {
+          "month": 2,
+          "tmin_f": 11.4,
+          "tmax_f": 30.0,
+          "tavg_f": 20.7,
+          "prcp_in": 0.8
+        },
+        {
+          "month": 3,
+          "tmin_f": 23.4,
+          "tmax_f": 43.3,
+          "tavg_f": 33.4,
+          "prcp_in": 1.47
+        },
+        {
+          "month": 4,
+          "tmin_f": 35.5,
+          "tmax_f": 57.0,
+          "tavg_f": 46.3,
+          "prcp_in": 3.03
+        },
+        {
+          "month": 5,
+          "tmin_f": 48.5,
+          "tmax_f": 69.9,
+          "tavg_f": 59.2,
+          "prcp_in": 3.74
+        },
+        {
+          "month": 6,
+          "tmin_f": 59.3,
+          "tmax_f": 80.4,
+          "tavg_f": 69.9,
+          "prcp_in": 4.59
+        },
+        {
+          "month": 7,
+          "tmin_f": 63.7,
+          "tmax_f": 84.8,
+          "tavg_f": 74.3,
+          "prcp_in": 3.31
+        },
+        {
+          "month": 8,
+          "tmin_f": 61.2,
+          "tmax_f": 81.7,
+          "tavg_f": 71.5,
+          "prcp_in": 3.34
+        },
+        {
+          "month": 9,
+          "tmin_f": 51.7,
+          "tmax_f": 74.8,
+          "tavg_f": 63.3,
+          "prcp_in": 3.04
+        },
+        {
+          "month": 10,
+          "tmin_f": 37.8,
+          "tmax_f": 60.6,
+          "tavg_f": 49.2,
+          "prcp_in": 2.29
+        },
+        {
+          "month": 11,
+          "tmin_f": 24.2,
+          "tmax_f": 43.6,
+          "tavg_f": 33.9,
+          "prcp_in": 1.19
+        },
+        {
+          "month": 12,
+          "tmin_f": 12.5,
+          "tmax_f": 30.4,
+          "tavg_f": 21.5,
+          "prcp_in": 0.84
+        }
+      ],
+      "station": "USC00397666 \u2014 SIOUX FALLS WFO AP (2.6 mi)",
+      "air": {
+        "aqi": 22,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 98.7,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 511,
+        "health_violation_cws": 511,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 52.3,
+        "score": 47.7,
+        "warm_avg_f": 67.6,
+        "warm_precip_in": 18.0,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1993,
+        "score": 73.8,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 53.9,
+      "previous_score": 82.4,
+      "change": -28.5,
+      "rank": 6
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "state_name": "Texas",
+      "slug": "austin-tx",
+      "lat": 30.27,
+      "lon": -97.74,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 37.0,
+          "tmax_f": 59.2,
+          "tavg_f": 48.1,
+          "prcp_in": 0
+        },
+        {
+          "month": 2,
+          "tmin_f": 41.0,
+          "tmax_f": 64.3,
+          "tavg_f": 52.6,
+          "prcp_in": 0
+        },
+        {
+          "month": 3,
+          "tmin_f": 47.8,
+          "tmax_f": 72.9,
+          "tavg_f": 60.3,
+          "prcp_in": 0
+        },
+        {
+          "month": 4,
+          "tmin_f": 54.4,
+          "tmax_f": 79.4,
+          "tavg_f": 66.9,
+          "prcp_in": 0
+        },
+        {
+          "month": 5,
+          "tmin_f": 63.3,
+          "tmax_f": 85.6,
+          "tavg_f": 74.4,
+          "prcp_in": 0
+        },
+        {
+          "month": 6,
+          "tmin_f": 69.7,
+          "tmax_f": 92.9,
+          "tavg_f": 81.3,
+          "prcp_in": 0
+        },
+        {
+          "month": 7,
+          "tmin_f": 71.8,
+          "tmax_f": 95.7,
+          "tavg_f": 83.8,
+          "prcp_in": 0
+        },
+        {
+          "month": 8,
+          "tmin_f": 71.5,
+          "tmax_f": 96.5,
+          "tavg_f": 84.0,
+          "prcp_in": 0
+        },
+        {
+          "month": 9,
+          "tmin_f": 66.2,
+          "tmax_f": 90.5,
+          "tavg_f": 78.4,
+          "prcp_in": 0
+        },
+        {
+          "month": 10,
+          "tmin_f": 55.4,
+          "tmax_f": 81.3,
+          "tavg_f": 68.4,
+          "prcp_in": 0
+        },
+        {
+          "month": 11,
+          "tmin_f": 46.0,
+          "tmax_f": 71.1,
+          "tavg_f": 58.6,
+          "prcp_in": 0
+        },
+        {
+          "month": 12,
+          "tmin_f": 38.7,
+          "tmax_f": 62.5,
+          "tavg_f": 50.6,
+          "prcp_in": 0
+        }
+      ],
+      "station": "USC00410431 \u2014 AUSTIN 6S (3.2 mi)",
+      "air": {
+        "aqi": 36,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 89.3,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 4752,
+        "health_violation_cws": 4752,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 39.9,
+        "score": 60.1,
+        "warm_avg_f": 80.4,
+        "warm_precip_in": 0,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1994,
+        "score": 74.7,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 53.8,
+      "previous_score": 81.0,
+      "change": -27.2,
+      "rank": 7
     },
     {
       "city": "Anchorage",
@@ -3010,7 +1010,7 @@
       "score": 53.8,
       "previous_score": 53.8,
       "change": 0.0,
-      "rank": 24
+      "rank": 8
     },
     {
       "city": "Fargo",
@@ -3135,7 +1135,7 @@
       "score": 52.5,
       "previous_score": 52.5,
       "change": 0.0,
-      "rank": 25
+      "rank": 9
     },
     {
       "city": "San Francisco",
@@ -3260,7 +1260,132 @@
       "score": 51.6,
       "previous_score": 51.6,
       "change": 0.0,
-      "rank": 26
+      "rank": 10
+    },
+    {
+      "city": "Cheyenne",
+      "state": "WY",
+      "state_name": "Wyoming",
+      "slug": "cheyenne-wy",
+      "lat": 41.14,
+      "lon": -104.82,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 18.4,
+          "tmax_f": 40.0,
+          "tavg_f": 29.2,
+          "prcp_in": 0.35
+        },
+        {
+          "month": 2,
+          "tmin_f": 18.4,
+          "tmax_f": 40.6,
+          "tavg_f": 29.5,
+          "prcp_in": 0.52
+        },
+        {
+          "month": 3,
+          "tmin_f": 25.1,
+          "tmax_f": 49.1,
+          "tavg_f": 37.1,
+          "prcp_in": 0.96
+        },
+        {
+          "month": 4,
+          "tmin_f": 30.8,
+          "tmax_f": 54.8,
+          "tavg_f": 42.8,
+          "prcp_in": 1.79
+        },
+        {
+          "month": 5,
+          "tmin_f": 40.2,
+          "tmax_f": 64.4,
+          "tavg_f": 52.3,
+          "prcp_in": 2.44
+        },
+        {
+          "month": 6,
+          "tmin_f": 49.4,
+          "tmax_f": 76.7,
+          "tavg_f": 63.1,
+          "prcp_in": 2.16
+        },
+        {
+          "month": 7,
+          "tmin_f": 56.1,
+          "tmax_f": 84.1,
+          "tavg_f": 70.1,
+          "prcp_in": 2.11
+        },
+        {
+          "month": 8,
+          "tmin_f": 54.3,
+          "tmax_f": 82.0,
+          "tavg_f": 68.1,
+          "prcp_in": 1.52
+        },
+        {
+          "month": 9,
+          "tmin_f": 45.8,
+          "tmax_f": 73.3,
+          "tavg_f": 59.6,
+          "prcp_in": 1.47
+        },
+        {
+          "month": 10,
+          "tmin_f": 33.9,
+          "tmax_f": 59.1,
+          "tavg_f": 46.5,
+          "prcp_in": 1.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 24.7,
+          "tmax_f": 47.5,
+          "tavg_f": 36.1,
+          "prcp_in": 0.61
+        },
+        {
+          "month": 12,
+          "tmin_f": 18.1,
+          "tmax_f": 39.3,
+          "tavg_f": 28.7,
+          "prcp_in": 0.48
+        }
+      ],
+      "station": "USW00024018 \u2014 CHEYENNE (1.1 mi)",
+      "air": {
+        "aqi": 41,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 85.9,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 327,
+        "health_violation_cws": 327,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 29.5,
+        "score": 70.5,
+        "warm_avg_f": 62.6,
+        "warm_precip_in": 9.7,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1976,
+        "score": 58.1,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 51.5,
+      "previous_score": 80.0,
+      "change": -28.5,
+      "rank": 11
     },
     {
       "city": "Albuquerque",
@@ -3385,7 +1510,7 @@
       "score": 51.4,
       "previous_score": 51.4,
       "change": 0.0,
-      "rank": 27
+      "rank": 12
     },
     {
       "city": "Louisville",
@@ -3510,7 +1635,7 @@
       "score": 48.6,
       "previous_score": 48.6,
       "change": 0.0,
-      "rank": 28
+      "rank": 13
     },
     {
       "city": "San Diego",
@@ -3635,7 +1760,7 @@
       "score": 48.4,
       "previous_score": 48.4,
       "change": 0.0,
-      "rank": 29
+      "rank": 14
     },
     {
       "city": "Sacramento",
@@ -3760,7 +1885,7 @@
       "score": 48.1,
       "previous_score": 48.1,
       "change": 0.0,
-      "rank": 30
+      "rank": 15
     },
     {
       "city": "Los Angeles",
@@ -3885,7 +2010,132 @@
       "score": 47.9,
       "previous_score": 47.9,
       "change": 0.0,
-      "rank": 31
+      "rank": 16
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "state_name": "Washington",
+      "slug": "seattle-wa",
+      "lat": 47.61,
+      "lon": -122.33,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 36.8,
+          "tmax_f": 48.6,
+          "tavg_f": 42.7,
+          "prcp_in": 5.21
+        },
+        {
+          "month": 2,
+          "tmin_f": 36.8,
+          "tmax_f": 50.7,
+          "tavg_f": 43.7,
+          "prcp_in": 3.71
+        },
+        {
+          "month": 3,
+          "tmin_f": 39.4,
+          "tmax_f": 54.8,
+          "tavg_f": 47.1,
+          "prcp_in": 3.94
+        },
+        {
+          "month": 4,
+          "tmin_f": 43.6,
+          "tmax_f": 59.8,
+          "tavg_f": 51.7,
+          "prcp_in": 2.89
+        },
+        {
+          "month": 5,
+          "tmin_f": 49.3,
+          "tmax_f": 66.5,
+          "tavg_f": 57.9,
+          "prcp_in": 1.98
+        },
+        {
+          "month": 6,
+          "tmin_f": 54.0,
+          "tmax_f": 71.2,
+          "tavg_f": 62.6,
+          "prcp_in": 1.22
+        },
+        {
+          "month": 7,
+          "tmin_f": 57.5,
+          "tmax_f": 77.3,
+          "tavg_f": 67.4,
+          "prcp_in": 0.56
+        },
+        {
+          "month": 8,
+          "tmin_f": 58.1,
+          "tmax_f": 77.4,
+          "tavg_f": 67.8,
+          "prcp_in": 0.83
+        },
+        {
+          "month": 9,
+          "tmin_f": 53.9,
+          "tmax_f": 71.7,
+          "tavg_f": 62.8,
+          "prcp_in": 1.37
+        },
+        {
+          "month": 10,
+          "tmin_f": 46.4,
+          "tmax_f": 61.0,
+          "tavg_f": 53.7,
+          "prcp_in": 3.49
+        },
+        {
+          "month": 11,
+          "tmin_f": 39.9,
+          "tmax_f": 53.0,
+          "tavg_f": 46.4,
+          "prcp_in": 5.8
+        },
+        {
+          "month": 12,
+          "tmin_f": 36.2,
+          "tmax_f": 47.8,
+          "tavg_f": 42.0,
+          "prcp_in": 5.49
+        }
+      ],
+      "station": "USW00024234 \u2014 SEATTLE BOEING FLD (4.5 mi)",
+      "air": {
+        "aqi": 68,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 69.2,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 2376,
+        "health_violation_cws": 2376,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 24.4,
+        "score": 75.6,
+        "warm_avg_f": 63.7,
+        "warm_precip_in": 6.0,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1976,
+        "score": 58.1,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 47.5,
+      "previous_score": 72.1,
+      "change": -24.6,
+      "rank": 17
     },
     {
       "city": "Colorado Springs",
@@ -4010,7 +2260,132 @@
       "score": 47.5,
       "previous_score": 47.5,
       "change": 0.0,
-      "rank": 32
+      "rank": 18
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "state_name": "Texas",
+      "slug": "san-antonio-tx",
+      "lat": 29.42,
+      "lon": -98.49,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 40.2,
+          "tmax_f": 63.2,
+          "tavg_f": 51.7,
+          "prcp_in": 2.21
+        },
+        {
+          "month": 2,
+          "tmin_f": 43.8,
+          "tmax_f": 67.5,
+          "tavg_f": 55.6,
+          "prcp_in": 1.87
+        },
+        {
+          "month": 3,
+          "tmin_f": 51.0,
+          "tmax_f": 73.8,
+          "tavg_f": 62.4,
+          "prcp_in": 2.38
+        },
+        {
+          "month": 4,
+          "tmin_f": 57.4,
+          "tmax_f": 80.1,
+          "tavg_f": 68.7,
+          "prcp_in": 2.32
+        },
+        {
+          "month": 5,
+          "tmin_f": 65.7,
+          "tmax_f": 85.7,
+          "tavg_f": 75.7,
+          "prcp_in": 4.38
+        },
+        {
+          "month": 6,
+          "tmin_f": 72.0,
+          "tmax_f": 91.7,
+          "tavg_f": 81.9,
+          "prcp_in": 3.55
+        },
+        {
+          "month": 7,
+          "tmin_f": 74.1,
+          "tmax_f": 94.0,
+          "tavg_f": 84.1,
+          "prcp_in": 2.41
+        },
+        {
+          "month": 8,
+          "tmin_f": 74.1,
+          "tmax_f": 95.3,
+          "tavg_f": 84.7,
+          "prcp_in": 2.43
+        },
+        {
+          "month": 9,
+          "tmin_f": 68.8,
+          "tmax_f": 89.5,
+          "tavg_f": 79.2,
+          "prcp_in": 3.9
+        },
+        {
+          "month": 10,
+          "tmin_f": 59.2,
+          "tmax_f": 81.7,
+          "tavg_f": 70.5,
+          "prcp_in": 3.93
+        },
+        {
+          "month": 11,
+          "tmin_f": 49.0,
+          "tmax_f": 71.4,
+          "tavg_f": 60.2,
+          "prcp_in": 2.48
+        },
+        {
+          "month": 12,
+          "tmin_f": 41.4,
+          "tmax_f": 64.2,
+          "tavg_f": 52.8,
+          "prcp_in": 2.11
+        }
+      ],
+      "station": "USC00417947 \u2014 SAN ANTONIO INCARNATE WORD (3.6 mi)",
+      "air": {
+        "aqi": 28,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 94.6,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 4752,
+        "health_violation_cws": 4752,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 71.1,
+        "score": 28.9,
+        "warm_avg_f": 81.1,
+        "warm_precip_in": 16.7,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1985,
+        "score": 66.4,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 47.4,
+      "previous_score": 74.7,
+      "change": -27.3,
+      "rank": 19
     },
     {
       "city": "Chicago",
@@ -4135,7 +2510,7 @@
       "score": 47.3,
       "previous_score": 47.3,
       "change": 0.0,
-      "rank": 33
+      "rank": 20
     },
     {
       "city": "Honolulu",
@@ -4260,7 +2635,7 @@
       "score": 47.0,
       "previous_score": 47.0,
       "change": 0.0,
-      "rank": 34
+      "rank": 21
     },
     {
       "city": "Portland",
@@ -4385,7 +2760,7 @@
       "score": 46.6,
       "previous_score": 46.6,
       "change": 0.0,
-      "rank": 35
+      "rank": 22
     },
     {
       "city": "Columbus",
@@ -4510,7 +2885,7 @@
       "score": 46.2,
       "previous_score": 46.2,
       "change": 0.0,
-      "rank": 36
+      "rank": 23
     },
     {
       "city": "Des Moines",
@@ -4635,7 +3010,7 @@
       "score": 45.9,
       "previous_score": 45.9,
       "change": 0.0,
-      "rank": 37
+      "rank": 24
     },
     {
       "city": "Tucson",
@@ -4760,7 +3135,132 @@
       "score": 45.8,
       "previous_score": 45.8,
       "change": 0.0,
-      "rank": 38
+      "rank": 25
+    },
+    {
+      "city": "Milwaukee",
+      "state": "WI",
+      "state_name": "Wisconsin",
+      "slug": "milwaukee-wi",
+      "lat": 43.04,
+      "lon": -87.91,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 17.2,
+          "tmax_f": 30.9,
+          "tavg_f": 24.0,
+          "prcp_in": 1.79
+        },
+        {
+          "month": 2,
+          "tmin_f": 20.0,
+          "tmax_f": 34.2,
+          "tavg_f": 27.1,
+          "prcp_in": 1.69
+        },
+        {
+          "month": 3,
+          "tmin_f": 28.7,
+          "tmax_f": 44.2,
+          "tavg_f": 36.4,
+          "prcp_in": 2.2
+        },
+        {
+          "month": 4,
+          "tmin_f": 37.8,
+          "tmax_f": 54.7,
+          "tavg_f": 46.3,
+          "prcp_in": 3.86
+        },
+        {
+          "month": 5,
+          "tmin_f": 47.8,
+          "tmax_f": 66.5,
+          "tavg_f": 57.1,
+          "prcp_in": 3.54
+        },
+        {
+          "month": 6,
+          "tmin_f": 58.4,
+          "tmax_f": 76.8,
+          "tavg_f": 67.6,
+          "prcp_in": 4.38
+        },
+        {
+          "month": 7,
+          "tmin_f": 64.7,
+          "tmax_f": 81.9,
+          "tavg_f": 73.3,
+          "prcp_in": 3.4
+        },
+        {
+          "month": 8,
+          "tmin_f": 64.2,
+          "tmax_f": 80.3,
+          "tavg_f": 72.3,
+          "prcp_in": 3.65
+        },
+        {
+          "month": 9,
+          "tmin_f": 56.4,
+          "tmax_f": 73.5,
+          "tavg_f": 65.0,
+          "prcp_in": 3.16
+        },
+        {
+          "month": 10,
+          "tmin_f": 44.7,
+          "tmax_f": 61.3,
+          "tavg_f": 53.0,
+          "prcp_in": 2.78
+        },
+        {
+          "month": 11,
+          "tmin_f": 33.1,
+          "tmax_f": 47.8,
+          "tavg_f": 40.4,
+          "prcp_in": 2.24
+        },
+        {
+          "month": 12,
+          "tmin_f": 23.0,
+          "tmax_f": 36.1,
+          "tavg_f": 29.5,
+          "prcp_in": 1.88
+        }
+      ],
+      "station": "USW00014839 \u2014 MILWAUKEE MITCHELL AP (5.9 mi)",
+      "air": {
+        "aqi": 30,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 93.3,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 1051,
+        "health_violation_cws": 1051,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 51.6,
+        "score": 48.4,
+        "warm_avg_f": 67.1,
+        "warm_precip_in": 18.1,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1953,
+        "score": 37.0,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 45.1,
+      "previous_score": 72.1,
+      "change": -27.0,
+      "rank": 26
     },
     {
       "city": "Detroit",
@@ -4885,7 +3385,7 @@
       "score": 45.0,
       "previous_score": 45.0,
       "change": 0.0,
-      "rank": 39
+      "rank": 27
     },
     {
       "city": "Newark",
@@ -5010,7 +3510,7 @@
       "score": 44.8,
       "previous_score": 44.8,
       "change": 0.0,
-      "rank": 40
+      "rank": 28
     },
     {
       "city": "Manchester",
@@ -5135,7 +3635,257 @@
       "score": 44.8,
       "previous_score": 44.8,
       "change": 0.0,
-      "rank": 41
+      "rank": 29
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "slug": "nashville-tn",
+      "lat": 36.16,
+      "lon": -86.78,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 27.5,
+          "tmax_f": 48.0,
+          "tavg_f": 37.8,
+          "prcp_in": 4.7
+        },
+        {
+          "month": 2,
+          "tmin_f": 31.2,
+          "tmax_f": 52.2,
+          "tavg_f": 41.7,
+          "prcp_in": 4.6
+        },
+        {
+          "month": 3,
+          "tmin_f": 38.6,
+          "tmax_f": 61.9,
+          "tavg_f": 50.2,
+          "prcp_in": 5.38
+        },
+        {
+          "month": 4,
+          "tmin_f": 47.4,
+          "tmax_f": 72.0,
+          "tavg_f": 59.7,
+          "prcp_in": 4.81
+        },
+        {
+          "month": 5,
+          "tmin_f": 55.7,
+          "tmax_f": 79.9,
+          "tavg_f": 67.8,
+          "prcp_in": 5.3
+        },
+        {
+          "month": 6,
+          "tmin_f": 63.9,
+          "tmax_f": 86.7,
+          "tavg_f": 75.3,
+          "prcp_in": 4.33
+        },
+        {
+          "month": 7,
+          "tmin_f": 67.9,
+          "tmax_f": 89.3,
+          "tavg_f": 78.6,
+          "prcp_in": 4.33
+        },
+        {
+          "month": 8,
+          "tmin_f": 67.0,
+          "tmax_f": 88.6,
+          "tavg_f": 77.8,
+          "prcp_in": 3.72
+        },
+        {
+          "month": 9,
+          "tmin_f": 59.3,
+          "tmax_f": 83.6,
+          "tavg_f": 71.5,
+          "prcp_in": 4.22
+        },
+        {
+          "month": 10,
+          "tmin_f": 47.2,
+          "tmax_f": 73.2,
+          "tavg_f": 60.2,
+          "prcp_in": 3.77
+        },
+        {
+          "month": 11,
+          "tmin_f": 36.7,
+          "tmax_f": 61.6,
+          "tavg_f": 49.1,
+          "prcp_in": 3.8
+        },
+        {
+          "month": 12,
+          "tmin_f": 31.7,
+          "tmax_f": 51.1,
+          "tavg_f": 41.4,
+          "prcp_in": 4.28
+        }
+      ],
+      "station": "USC00408238 \u2014 SHELBY BOTTOMS NATURE CTR (3.1 mi)",
+      "air": {
+        "aqi": 22,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 98.7,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 446,
+        "health_violation_cws": 446,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 69.6,
+        "score": 30.4,
+        "warm_avg_f": 74.2,
+        "warm_precip_in": 21.9,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1962,
+        "score": 45.2,
+        "source": "Starter preview"
+      },
+      "score": 44.7,
+      "previous_score": 71.1,
+      "change": -26.4,
+      "rank": 30
+    },
+    {
+      "city": "Madison",
+      "state": "WI",
+      "state_name": "Wisconsin",
+      "slug": "madison-wi",
+      "lat": 43.07,
+      "lon": -89.4,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 11.1,
+          "tmax_f": 27.7,
+          "tavg_f": 19.4,
+          "prcp_in": 1.67
+        },
+        {
+          "month": 2,
+          "tmin_f": 14.0,
+          "tmax_f": 31.5,
+          "tavg_f": 22.8,
+          "prcp_in": 1.71
+        },
+        {
+          "month": 3,
+          "tmin_f": 24.7,
+          "tmax_f": 44.0,
+          "tavg_f": 34.4,
+          "prcp_in": 2.34
+        },
+        {
+          "month": 4,
+          "tmin_f": 35.7,
+          "tmax_f": 57.4,
+          "tavg_f": 46.5,
+          "prcp_in": 4.22
+        },
+        {
+          "month": 5,
+          "tmin_f": 47.4,
+          "tmax_f": 69.2,
+          "tavg_f": 58.3,
+          "prcp_in": 4.55
+        },
+        {
+          "month": 6,
+          "tmin_f": 57.1,
+          "tmax_f": 78.4,
+          "tavg_f": 67.7,
+          "prcp_in": 5.74
+        },
+        {
+          "month": 7,
+          "tmin_f": 61.4,
+          "tmax_f": 82.2,
+          "tavg_f": 71.8,
+          "prcp_in": 4.7
+        },
+        {
+          "month": 8,
+          "tmin_f": 59.4,
+          "tmax_f": 80.6,
+          "tavg_f": 70.0,
+          "prcp_in": 4.08
+        },
+        {
+          "month": 9,
+          "tmin_f": 50.7,
+          "tmax_f": 73.9,
+          "tavg_f": 62.3,
+          "prcp_in": 3.92
+        },
+        {
+          "month": 10,
+          "tmin_f": 39.4,
+          "tmax_f": 61.1,
+          "tavg_f": 50.2,
+          "prcp_in": 2.99
+        },
+        {
+          "month": 11,
+          "tmin_f": 28.5,
+          "tmax_f": 46.1,
+          "tavg_f": 37.3,
+          "prcp_in": 2.34
+        },
+        {
+          "month": 12,
+          "tmin_f": 17.8,
+          "tmax_f": 33.0,
+          "tavg_f": 25.4,
+          "prcp_in": 1.92
+        }
+      ],
+      "station": "USC00470273 \u2014 UW ARBORETUM - MADISON (2.5 mi)",
+      "air": {
+        "aqi": 52,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 78.8,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 1051,
+        "health_violation_cws": 1051,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 58.7,
+        "score": 41.3,
+        "warm_avg_f": 66.0,
+        "warm_precip_in": 23.0,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1980,
+        "score": 61.8,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 44.3,
+      "previous_score": 71.3,
+      "change": -27.0,
+      "rank": 31
     },
     {
       "city": "Omaha",
@@ -5260,7 +4010,7 @@
       "score": 44.3,
       "previous_score": 44.3,
       "change": 0.0,
-      "rank": 42
+      "rank": 32
     },
     {
       "city": "Phoenix",
@@ -5385,7 +4135,257 @@
       "score": 44.3,
       "previous_score": 44.3,
       "change": 0.0,
-      "rank": 43
+      "rank": 33
+    },
+    {
+      "city": "El Paso",
+      "state": "TX",
+      "state_name": "Texas",
+      "slug": "el-paso-tx",
+      "lat": 31.76,
+      "lon": -106.49,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 34.5,
+          "tmax_f": 58.6,
+          "tavg_f": 46.5,
+          "prcp_in": 0.39
+        },
+        {
+          "month": 2,
+          "tmin_f": 38.9,
+          "tmax_f": 64.1,
+          "tavg_f": 51.5,
+          "prcp_in": 0.4
+        },
+        {
+          "month": 3,
+          "tmin_f": 45.5,
+          "tmax_f": 71.9,
+          "tavg_f": 58.7,
+          "prcp_in": 0.24
+        },
+        {
+          "month": 4,
+          "tmin_f": 53.3,
+          "tmax_f": 80.0,
+          "tavg_f": 66.6,
+          "prcp_in": 0.17
+        },
+        {
+          "month": 5,
+          "tmin_f": 62.1,
+          "tmax_f": 88.7,
+          "tavg_f": 75.4,
+          "prcp_in": 0.43
+        },
+        {
+          "month": 6,
+          "tmin_f": 70.6,
+          "tmax_f": 97.1,
+          "tavg_f": 83.9,
+          "prcp_in": 0.73
+        },
+        {
+          "month": 7,
+          "tmin_f": 73.0,
+          "tmax_f": 95.8,
+          "tavg_f": 84.4,
+          "prcp_in": 1.58
+        },
+        {
+          "month": 8,
+          "tmin_f": 71.8,
+          "tmax_f": 94.0,
+          "tavg_f": 82.9,
+          "prcp_in": 1.67
+        },
+        {
+          "month": 9,
+          "tmin_f": 65.4,
+          "tmax_f": 88.3,
+          "tavg_f": 76.9,
+          "prcp_in": 1.52
+        },
+        {
+          "month": 10,
+          "tmin_f": 54.0,
+          "tmax_f": 79.4,
+          "tavg_f": 66.7,
+          "prcp_in": 0.59
+        },
+        {
+          "month": 11,
+          "tmin_f": 42.0,
+          "tmax_f": 67.0,
+          "tavg_f": 54.5,
+          "prcp_in": 0.43
+        },
+        {
+          "month": 12,
+          "tmin_f": 34.4,
+          "tmax_f": 57.8,
+          "tavg_f": 46.1,
+          "prcp_in": 0.63
+        }
+      ],
+      "station": "USW00023044 \u2014 EL PASO INTL AP (7.5 mi)",
+      "air": {
+        "aqi": 65,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 71.0,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 4752,
+        "health_violation_cws": 4752,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 51.1,
+        "score": 48.9,
+        "warm_avg_f": 80.7,
+        "warm_precip_in": 5.9,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1984,
+        "score": 65.5,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 44.2,
+      "previous_score": 71.5,
+      "change": -27.3,
+      "rank": 34
+    },
+    {
+      "city": "Salt Lake City",
+      "state": "UT",
+      "state_name": "Utah",
+      "slug": "salt-lake-city-ut",
+      "lat": 40.76,
+      "lon": -111.89,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 27.6,
+          "tmax_f": 39.7,
+          "tavg_f": 33.7,
+          "prcp_in": 1.54
+        },
+        {
+          "month": 2,
+          "tmin_f": 31.4,
+          "tmax_f": 45.8,
+          "tavg_f": 38.6,
+          "prcp_in": 1.45
+        },
+        {
+          "month": 3,
+          "tmin_f": 38.7,
+          "tmax_f": 55.8,
+          "tavg_f": 47.3,
+          "prcp_in": 2.04
+        },
+        {
+          "month": 4,
+          "tmin_f": 44.0,
+          "tmax_f": 62.1,
+          "tavg_f": 53.0,
+          "prcp_in": 2.54
+        },
+        {
+          "month": 5,
+          "tmin_f": 52.0,
+          "tmax_f": 72.3,
+          "tavg_f": 62.1,
+          "prcp_in": 2.09
+        },
+        {
+          "month": 6,
+          "tmin_f": 60.5,
+          "tmax_f": 82.7,
+          "tavg_f": 71.6,
+          "prcp_in": 1.06
+        },
+        {
+          "month": 7,
+          "tmin_f": 69.9,
+          "tmax_f": 91.4,
+          "tavg_f": 80.6,
+          "prcp_in": 0.55
+        },
+        {
+          "month": 8,
+          "tmin_f": 67.9,
+          "tmax_f": 89.7,
+          "tavg_f": 78.8,
+          "prcp_in": 0.61
+        },
+        {
+          "month": 9,
+          "tmin_f": 58.2,
+          "tmax_f": 79.8,
+          "tavg_f": 69.0,
+          "prcp_in": 1.3
+        },
+        {
+          "month": 10,
+          "tmin_f": 46.6,
+          "tmax_f": 65.9,
+          "tavg_f": 56.3,
+          "prcp_in": 1.39
+        },
+        {
+          "month": 11,
+          "tmin_f": 36.6,
+          "tmax_f": 51.7,
+          "tavg_f": 44.2,
+          "prcp_in": 1.6
+        },
+        {
+          "month": 12,
+          "tmin_f": 28.3,
+          "tmax_f": 40.5,
+          "tavg_f": 34.4,
+          "prcp_in": 1.55
+        }
+      ],
+      "station": "USC00427606 \u2014 SALT LAKE TRIAD CTR (0.8 mi)",
+      "air": {
+        "aqi": 61,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 73.4,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 520,
+        "health_violation_cws": 520,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 37.5,
+        "score": 62.5,
+        "warm_avg_f": 72.4,
+        "warm_precip_in": 5.6,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1965,
+        "score": 48.0,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 44.1,
+      "previous_score": 72.3,
+      "change": -28.2,
+      "rank": 35
     },
     {
       "city": "Kansas City",
@@ -5510,7 +4510,7 @@
       "score": 43.9,
       "previous_score": 43.9,
       "change": 0.0,
-      "rank": 44
+      "rank": 36
     },
     {
       "city": "Tulsa",
@@ -5635,7 +4635,7 @@
       "score": 43.9,
       "previous_score": 43.9,
       "change": 0.0,
-      "rank": 45
+      "rank": 37
     },
     {
       "city": "Little Rock",
@@ -5760,7 +4760,7 @@
       "score": 43.8,
       "previous_score": 43.8,
       "change": 0.0,
-      "rank": 46
+      "rank": 38
     },
     {
       "city": "Denver",
@@ -5885,7 +4885,132 @@
       "score": 43.8,
       "previous_score": 43.8,
       "change": 0.0,
-      "rank": 47
+      "rank": 39
+    },
+    {
+      "city": "Charleston",
+      "state": "SC",
+      "state_name": "South Carolina",
+      "slug": "charleston-sc",
+      "lat": 32.78,
+      "lon": -79.93,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 43.6,
+          "tmax_f": 58.0,
+          "tavg_f": 50.8,
+          "prcp_in": 2.56
+        },
+        {
+          "month": 2,
+          "tmin_f": 46.1,
+          "tmax_f": 60.3,
+          "tavg_f": 53.2,
+          "prcp_in": 2.56
+        },
+        {
+          "month": 3,
+          "tmin_f": 52.0,
+          "tmax_f": 65.6,
+          "tavg_f": 58.8,
+          "prcp_in": 3.03
+        },
+        {
+          "month": 4,
+          "tmin_f": 59.7,
+          "tmax_f": 72.3,
+          "tavg_f": 66.0,
+          "prcp_in": 2.96
+        },
+        {
+          "month": 5,
+          "tmin_f": 68.0,
+          "tmax_f": 79.0,
+          "tavg_f": 73.5,
+          "prcp_in": 2.58
+        },
+        {
+          "month": 6,
+          "tmin_f": 74.2,
+          "tmax_f": 84.3,
+          "tavg_f": 79.2,
+          "prcp_in": 4.85
+        },
+        {
+          "month": 7,
+          "tmin_f": 77.1,
+          "tmax_f": 87.5,
+          "tavg_f": 82.3,
+          "prcp_in": 5.08
+        },
+        {
+          "month": 8,
+          "tmin_f": 76.5,
+          "tmax_f": 86.4,
+          "tavg_f": 81.4,
+          "prcp_in": 6.11
+        },
+        {
+          "month": 9,
+          "tmin_f": 72.5,
+          "tmax_f": 82.6,
+          "tavg_f": 77.6,
+          "prcp_in": 5.25
+        },
+        {
+          "month": 10,
+          "tmin_f": 63.2,
+          "tmax_f": 75.6,
+          "tavg_f": 69.4,
+          "prcp_in": 4.07
+        },
+        {
+          "month": 11,
+          "tmin_f": 53.1,
+          "tmax_f": 67.1,
+          "tavg_f": 60.1,
+          "prcp_in": 2.3
+        },
+        {
+          "month": 12,
+          "tmin_f": 46.8,
+          "tmax_f": 60.9,
+          "tavg_f": 53.8,
+          "prcp_in": 2.91
+        }
+      ],
+      "station": "USW00013782 \u2014 DWTN CHARLESTON (0.5 mi)",
+      "air": {
+        "aqi": 48,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 81.2,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 562,
+        "health_violation_cws": 562,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 80.4,
+        "score": 19.6,
+        "warm_avg_f": 78.8,
+        "warm_precip_in": 23.9,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1995,
+        "score": 75.6,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 43.4,
+      "previous_score": 73.1,
+      "change": -29.7,
+      "rank": 40
     },
     {
       "city": "Hartford",
@@ -6010,7 +5135,132 @@
       "score": 43.3,
       "previous_score": 43.3,
       "change": 0.0,
-      "rank": 48
+      "rank": 41
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "slug": "dallas-tx",
+      "lat": 32.78,
+      "lon": -96.8,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 37.9,
+          "tmax_f": 57.7,
+          "tavg_f": 47.8,
+          "prcp_in": 2.59
+        },
+        {
+          "month": 2,
+          "tmin_f": 41.9,
+          "tmax_f": 62.0,
+          "tavg_f": 52.0,
+          "prcp_in": 2.78
+        },
+        {
+          "month": 3,
+          "tmin_f": 49.4,
+          "tmax_f": 69.9,
+          "tavg_f": 59.6,
+          "prcp_in": 3.45
+        },
+        {
+          "month": 4,
+          "tmin_f": 56.8,
+          "tmax_f": 77.4,
+          "tavg_f": 67.1,
+          "prcp_in": 3.15
+        },
+        {
+          "month": 5,
+          "tmin_f": 66.0,
+          "tmax_f": 84.9,
+          "tavg_f": 75.4,
+          "prcp_in": 4.57
+        },
+        {
+          "month": 6,
+          "tmin_f": 73.8,
+          "tmax_f": 92.7,
+          "tavg_f": 83.3,
+          "prcp_in": 3.83
+        },
+        {
+          "month": 7,
+          "tmin_f": 77.7,
+          "tmax_f": 96.9,
+          "tavg_f": 87.3,
+          "prcp_in": 1.71
+        },
+        {
+          "month": 8,
+          "tmin_f": 77.4,
+          "tmax_f": 97.1,
+          "tavg_f": 87.3,
+          "prcp_in": 2.19
+        },
+        {
+          "month": 9,
+          "tmin_f": 70.1,
+          "tmax_f": 90.0,
+          "tavg_f": 80.1,
+          "prcp_in": 3.1
+        },
+        {
+          "month": 10,
+          "tmin_f": 58.7,
+          "tmax_f": 79.5,
+          "tavg_f": 69.1,
+          "prcp_in": 4.79
+        },
+        {
+          "month": 11,
+          "tmin_f": 47.8,
+          "tmax_f": 67.8,
+          "tavg_f": 57.8,
+          "prcp_in": 2.93
+        },
+        {
+          "month": 12,
+          "tmin_f": 39.8,
+          "tmax_f": 59.2,
+          "tavg_f": 49.5,
+          "prcp_in": 3.23
+        }
+      ],
+      "station": "USW00013960 \u2014 DALLAS FAA AP (4.5 mi)",
+      "air": {
+        "aqi": 46,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 82.6,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 4752,
+        "health_violation_cws": 4752,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 71.2,
+        "score": 28.8,
+        "warm_avg_f": 82.7,
+        "warm_precip_in": 15.4,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1981,
+        "score": 62.7,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 43.1,
+      "previous_score": 70.4,
+      "change": -27.3,
+      "rank": 42
     },
     {
       "city": "Portland",
@@ -6135,7 +5385,7 @@
       "score": 43.1,
       "previous_score": 43.1,
       "change": 0.0,
-      "rank": 49
+      "rank": 43
     },
     {
       "city": "Charlotte",
@@ -6260,7 +5510,7 @@
       "score": 42.9,
       "previous_score": 42.9,
       "change": 0.0,
-      "rank": 50
+      "rank": 44
     },
     {
       "city": "Orlando",
@@ -6385,7 +5635,7 @@
       "score": 42.7,
       "previous_score": 42.7,
       "change": 0.0,
-      "rank": 51
+      "rank": 45
     },
     {
       "city": "Grand Rapids",
@@ -6510,7 +5760,7 @@
       "score": 42.5,
       "previous_score": 42.5,
       "change": 0.0,
-      "rank": 52
+      "rank": 46
     },
     {
       "city": "Indianapolis",
@@ -6635,7 +5885,132 @@
       "score": 42.3,
       "previous_score": 42.3,
       "change": 0.0,
-      "rank": 53
+      "rank": 47
+    },
+    {
+      "city": "Virginia Beach",
+      "state": "VA",
+      "state_name": "Virginia",
+      "slug": "virginia-beach-va",
+      "lat": 36.85,
+      "lon": -75.98,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 31.6,
+          "tmax_f": 50.3,
+          "tavg_f": 40.9,
+          "prcp_in": 3.17
+        },
+        {
+          "month": 2,
+          "tmin_f": 33.2,
+          "tmax_f": 52.6,
+          "tavg_f": 42.9,
+          "prcp_in": 2.84
+        },
+        {
+          "month": 3,
+          "tmin_f": 38.9,
+          "tmax_f": 58.6,
+          "tavg_f": 48.8,
+          "prcp_in": 3.57
+        },
+        {
+          "month": 4,
+          "tmin_f": 47.7,
+          "tmax_f": 68.6,
+          "tavg_f": 58.2,
+          "prcp_in": 3.37
+        },
+        {
+          "month": 5,
+          "tmin_f": 56.3,
+          "tmax_f": 75.5,
+          "tavg_f": 65.9,
+          "prcp_in": 3.65
+        },
+        {
+          "month": 6,
+          "tmin_f": 65.5,
+          "tmax_f": 83.3,
+          "tavg_f": 74.4,
+          "prcp_in": 4.15
+        },
+        {
+          "month": 7,
+          "tmin_f": 70.3,
+          "tmax_f": 87.4,
+          "tavg_f": 78.9,
+          "prcp_in": 5.76
+        },
+        {
+          "month": 8,
+          "tmin_f": 69.1,
+          "tmax_f": 85.4,
+          "tavg_f": 77.2,
+          "prcp_in": 5.09
+        },
+        {
+          "month": 9,
+          "tmin_f": 64.0,
+          "tmax_f": 79.9,
+          "tavg_f": 71.9,
+          "prcp_in": 4.55
+        },
+        {
+          "month": 10,
+          "tmin_f": 52.7,
+          "tmax_f": 71.2,
+          "tavg_f": 61.9,
+          "prcp_in": 4.15
+        },
+        {
+          "month": 11,
+          "tmin_f": 41.5,
+          "tmax_f": 61.3,
+          "tavg_f": 51.4,
+          "prcp_in": 3.06
+        },
+        {
+          "month": 12,
+          "tmin_f": 35.4,
+          "tmax_f": 54.0,
+          "tavg_f": 44.7,
+          "prcp_in": 3.26
+        }
+      ],
+      "station": "USW00013769 \u2014 OCEANA NAS (3.7 mi)",
+      "air": {
+        "aqi": 54,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 77.6,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 1056,
+        "health_violation_cws": 1056,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 71.1,
+        "score": 28.9,
+        "warm_avg_f": 73.7,
+        "warm_precip_in": 23.2,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1984,
+        "score": 65.5,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 42.2,
+      "previous_score": 71.0,
+      "change": -28.8,
+      "rank": 48
     },
     {
       "city": "Minneapolis",
@@ -6760,7 +6135,7 @@
       "score": 42.1,
       "previous_score": 42.1,
       "change": 0.0,
-      "rank": 54
+      "rank": 49
     },
     {
       "city": "Baltimore",
@@ -6885,7 +6260,7 @@
       "score": 41.8,
       "previous_score": 41.8,
       "change": 0.0,
-      "rank": 55
+      "rank": 50
     },
     {
       "city": "Wichita",
@@ -7010,7 +6385,7 @@
       "score": 41.7,
       "previous_score": 41.7,
       "change": 0.0,
-      "rank": 56
+      "rank": 51
     },
     {
       "city": "Atlanta",
@@ -7135,7 +6510,7 @@
       "score": 41.6,
       "previous_score": 41.6,
       "change": 0.0,
-      "rank": 57
+      "rank": 52
     },
     {
       "city": "Providence",
@@ -7260,7 +6635,7 @@
       "score": 40.7,
       "previous_score": 40.7,
       "change": 0.0,
-      "rank": 58
+      "rank": 53
     },
     {
       "city": "Raleigh",
@@ -7385,7 +6760,7 @@
       "score": 40.6,
       "previous_score": 40.6,
       "change": 0.0,
-      "rank": 59
+      "rank": 54
     },
     {
       "city": "Cleveland",
@@ -7510,7 +6885,7 @@
       "score": 40.3,
       "previous_score": 40.3,
       "change": 0.0,
-      "rank": 60
+      "rank": 55
     },
     {
       "city": "Miami",
@@ -7635,7 +7010,7 @@
       "score": 40.0,
       "previous_score": 40.0,
       "change": 0.0,
-      "rank": 61
+      "rank": 56
     },
     {
       "city": "Wilmington",
@@ -7760,7 +7135,132 @@
       "score": 40.0,
       "previous_score": 40.0,
       "change": 0.0,
-      "rank": 62
+      "rank": 57
+    },
+    {
+      "city": "Richmond",
+      "state": "VA",
+      "state_name": "Virginia",
+      "slug": "richmond-va",
+      "lat": 37.54,
+      "lon": -77.44,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 28.8,
+          "tmax_f": 47.8,
+          "tavg_f": 38.3,
+          "prcp_in": 3.23
+        },
+        {
+          "month": 2,
+          "tmin_f": 30.4,
+          "tmax_f": 51.6,
+          "tavg_f": 41.0,
+          "prcp_in": 2.61
+        },
+        {
+          "month": 3,
+          "tmin_f": 37.2,
+          "tmax_f": 59.6,
+          "tavg_f": 48.4,
+          "prcp_in": 4.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 46.4,
+          "tmax_f": 70.4,
+          "tavg_f": 58.4,
+          "prcp_in": 3.18
+        },
+        {
+          "month": 5,
+          "tmin_f": 55.7,
+          "tmax_f": 77.8,
+          "tavg_f": 66.7,
+          "prcp_in": 4.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 64.5,
+          "tmax_f": 85.6,
+          "tavg_f": 75.0,
+          "prcp_in": 4.64
+        },
+        {
+          "month": 7,
+          "tmin_f": 69.2,
+          "tmax_f": 89.5,
+          "tavg_f": 79.4,
+          "prcp_in": 4.37
+        },
+        {
+          "month": 8,
+          "tmin_f": 67.6,
+          "tmax_f": 87.5,
+          "tavg_f": 77.5,
+          "prcp_in": 4.9
+        },
+        {
+          "month": 9,
+          "tmin_f": 61.1,
+          "tmax_f": 81.2,
+          "tavg_f": 71.2,
+          "prcp_in": 4.61
+        },
+        {
+          "month": 10,
+          "tmin_f": 49.0,
+          "tmax_f": 70.9,
+          "tavg_f": 60.0,
+          "prcp_in": 3.39
+        },
+        {
+          "month": 11,
+          "tmin_f": 38.8,
+          "tmax_f": 60.4,
+          "tavg_f": 49.6,
+          "prcp_in": 3.06
+        },
+        {
+          "month": 12,
+          "tmin_f": 32.1,
+          "tmax_f": 51.5,
+          "tavg_f": 41.8,
+          "prcp_in": 3.51
+        }
+      ],
+      "station": "USW00013740 \u2014 RICHMOND INTL AP (6.7 mi)",
+      "air": {
+        "aqi": 44,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 83.9,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 1056,
+        "health_violation_cws": 1056,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 70.3,
+        "score": 29.7,
+        "warm_avg_f": 74.0,
+        "warm_precip_in": 22.5,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1959,
+        "score": 42.5,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 39.6,
+      "previous_score": 68.4,
+      "change": -28.8,
+      "rank": 58
     },
     {
       "city": "Jackson",
@@ -7885,7 +7385,7 @@
       "score": 39.4,
       "previous_score": 39.4,
       "change": 0.0,
-      "rank": 63
+      "rank": 59
     },
     {
       "city": "Oklahoma City",
@@ -8010,7 +7510,132 @@
       "score": 39.1,
       "previous_score": 39.1,
       "change": 0.0,
-      "rank": 64
+      "rank": 60
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "slug": "memphis-tn",
+      "lat": 35.15,
+      "lon": -90.05,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 33.3,
+          "tmax_f": 50.9,
+          "tavg_f": 42.1,
+          "prcp_in": 4.14
+        },
+        {
+          "month": 2,
+          "tmin_f": 36.7,
+          "tmax_f": 55.5,
+          "tavg_f": 46.1,
+          "prcp_in": 4.55
+        },
+        {
+          "month": 3,
+          "tmin_f": 44.3,
+          "tmax_f": 64.2,
+          "tavg_f": 54.2,
+          "prcp_in": 5.74
+        },
+        {
+          "month": 4,
+          "tmin_f": 53.0,
+          "tmax_f": 73.4,
+          "tavg_f": 63.2,
+          "prcp_in": 5.87
+        },
+        {
+          "month": 5,
+          "tmin_f": 62.4,
+          "tmax_f": 81.7,
+          "tavg_f": 72.1,
+          "prcp_in": 5.27
+        },
+        {
+          "month": 6,
+          "tmin_f": 70.4,
+          "tmax_f": 89.4,
+          "tavg_f": 79.9,
+          "prcp_in": 3.99
+        },
+        {
+          "month": 7,
+          "tmin_f": 73.6,
+          "tmax_f": 91.9,
+          "tavg_f": 82.8,
+          "prcp_in": 4.82
+        },
+        {
+          "month": 8,
+          "tmin_f": 72.6,
+          "tmax_f": 91.5,
+          "tavg_f": 82.1,
+          "prcp_in": 3.37
+        },
+        {
+          "month": 9,
+          "tmin_f": 65.9,
+          "tmax_f": 86.0,
+          "tavg_f": 76.0,
+          "prcp_in": 3.03
+        },
+        {
+          "month": 10,
+          "tmin_f": 54.0,
+          "tmax_f": 75.1,
+          "tavg_f": 64.6,
+          "prcp_in": 3.98
+        },
+        {
+          "month": 11,
+          "tmin_f": 42.9,
+          "tmax_f": 62.6,
+          "tavg_f": 52.7,
+          "prcp_in": 4.69
+        },
+        {
+          "month": 12,
+          "tmin_f": 36.2,
+          "tmax_f": 53.4,
+          "tavg_f": 44.8,
+          "prcp_in": 5.49
+        }
+      ],
+      "station": "USW00013893 \u2014 MEMPHIS INTL AP (7.4 mi)",
+      "air": {
+        "aqi": 54,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 77.6,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 446,
+        "health_violation_cws": 446,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 73.9,
+        "score": 26.1,
+        "warm_avg_f": 78.6,
+        "warm_precip_in": 20.5,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1970,
+        "score": 52.6,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 39.0,
+      "previous_score": 65.4,
+      "change": -26.4,
+      "rank": 61
     },
     {
       "city": "Philadelphia",
@@ -8135,7 +7760,7 @@
       "score": 39.0,
       "previous_score": 39.0,
       "change": 0.0,
-      "rank": 65
+      "rank": 62
     },
     {
       "city": "Buffalo",
@@ -8260,7 +7885,7 @@
       "score": 38.9,
       "previous_score": 38.9,
       "change": 0.0,
-      "rank": 66
+      "rank": 63
     },
     {
       "city": "Pittsburgh",
@@ -8385,7 +8010,257 @@
       "score": 38.6,
       "previous_score": 38.6,
       "change": 0.0,
-      "rank": 67
+      "rank": 64
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "state_name": "Texas",
+      "slug": "houston-tx",
+      "lat": 29.76,
+      "lon": -95.37,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 44.3,
+          "tmax_f": 62.8,
+          "tavg_f": 53.6,
+          "prcp_in": 4.04
+        },
+        {
+          "month": 2,
+          "tmin_f": 48.9,
+          "tmax_f": 66.7,
+          "tavg_f": 57.8,
+          "prcp_in": 2.75
+        },
+        {
+          "month": 3,
+          "tmin_f": 53.7,
+          "tmax_f": 73.3,
+          "tavg_f": 63.5,
+          "prcp_in": 3.81
+        },
+        {
+          "month": 4,
+          "tmin_f": 60.9,
+          "tmax_f": 79.2,
+          "tavg_f": 70.1,
+          "prcp_in": 5.17
+        },
+        {
+          "month": 5,
+          "tmin_f": 68.7,
+          "tmax_f": 85.7,
+          "tavg_f": 77.2,
+          "prcp_in": 5.07
+        },
+        {
+          "month": 6,
+          "tmin_f": 74.8,
+          "tmax_f": 91.3,
+          "tavg_f": 83.1,
+          "prcp_in": 7.9
+        },
+        {
+          "month": 7,
+          "tmin_f": 76.8,
+          "tmax_f": 93.2,
+          "tavg_f": 85.0,
+          "prcp_in": 4.46
+        },
+        {
+          "month": 8,
+          "tmin_f": 76.8,
+          "tmax_f": 94.3,
+          "tavg_f": 85.6,
+          "prcp_in": 3.37
+        },
+        {
+          "month": 9,
+          "tmin_f": 71.8,
+          "tmax_f": 89.8,
+          "tavg_f": 80.8,
+          "prcp_in": 4.48
+        },
+        {
+          "month": 10,
+          "tmin_f": 62.7,
+          "tmax_f": 81.9,
+          "tavg_f": 72.3,
+          "prcp_in": 5.38
+        },
+        {
+          "month": 11,
+          "tmin_f": 52.9,
+          "tmax_f": 72.0,
+          "tavg_f": 62.4,
+          "prcp_in": 3.36
+        },
+        {
+          "month": 12,
+          "tmin_f": 46.0,
+          "tmax_f": 65.2,
+          "tavg_f": 55.6,
+          "prcp_in": 4.33
+        }
+      ],
+      "station": "USC00414326 \u2014 HOUSTON-PORT (5.5 mi)",
+      "air": {
+        "aqi": 54,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 77.6,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 4752,
+        "health_violation_cws": 4752,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 88.0,
+        "score": 12.0,
+        "warm_avg_f": 82.3,
+        "warm_precip_in": 25.3,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1982,
+        "score": 63.6,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 38.4,
+      "previous_score": 65.7,
+      "change": -27.3,
+      "rank": 65
+    },
+    {
+      "city": "Burlington",
+      "state": "VT",
+      "state_name": "Vermont",
+      "slug": "burlington-vt",
+      "lat": 44.48,
+      "lon": -73.21,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 12.9,
+          "tmax_f": 28.9,
+          "tavg_f": 20.9,
+          "prcp_in": 2.13
+        },
+        {
+          "month": 2,
+          "tmin_f": 14.3,
+          "tmax_f": 31.5,
+          "tavg_f": 22.9,
+          "prcp_in": 1.77
+        },
+        {
+          "month": 3,
+          "tmin_f": 23.6,
+          "tmax_f": 40.9,
+          "tavg_f": 32.3,
+          "prcp_in": 2.24
+        },
+        {
+          "month": 4,
+          "tmin_f": 35.9,
+          "tmax_f": 55.3,
+          "tavg_f": 45.6,
+          "prcp_in": 3.07
+        },
+        {
+          "month": 5,
+          "tmin_f": 47.8,
+          "tmax_f": 69.0,
+          "tavg_f": 58.4,
+          "prcp_in": 3.76
+        },
+        {
+          "month": 6,
+          "tmin_f": 57.3,
+          "tmax_f": 77.6,
+          "tavg_f": 67.5,
+          "prcp_in": 4.26
+        },
+        {
+          "month": 7,
+          "tmin_f": 62.4,
+          "tmax_f": 82.4,
+          "tavg_f": 72.4,
+          "prcp_in": 4.06
+        },
+        {
+          "month": 8,
+          "tmin_f": 60.7,
+          "tmax_f": 80.7,
+          "tavg_f": 70.7,
+          "prcp_in": 3.54
+        },
+        {
+          "month": 9,
+          "tmin_f": 52.9,
+          "tmax_f": 72.6,
+          "tavg_f": 62.7,
+          "prcp_in": 3.67
+        },
+        {
+          "month": 10,
+          "tmin_f": 41.8,
+          "tmax_f": 58.9,
+          "tavg_f": 50.3,
+          "prcp_in": 3.83
+        },
+        {
+          "month": 11,
+          "tmin_f": 32.1,
+          "tmax_f": 46.4,
+          "tavg_f": 39.3,
+          "prcp_in": 2.7
+        },
+        {
+          "month": 12,
+          "tmin_f": 21.3,
+          "tmax_f": 35.0,
+          "tavg_f": 28.2,
+          "prcp_in": 2.5
+        }
+      ],
+      "station": "USW00014742 \u2014 BURLINGTON INTL AP (3.1 mi)",
+      "air": {
+        "aqi": 68,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 69.2,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 405,
+        "health_violation_cws": 405,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 52.5,
+        "score": 47.5,
+        "warm_avg_f": 66.3,
+        "warm_precip_in": 19.3,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1957,
+        "score": 40.6,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 38.4,
+      "previous_score": 64.2,
+      "change": -25.8,
+      "rank": 66
     },
     {
       "city": "Boston",
@@ -8510,7 +8385,7 @@
       "score": 38.1,
       "previous_score": 38.1,
       "change": 0.0,
-      "rank": 68
+      "rank": 67
     },
     {
       "city": "St. Louis",
@@ -8635,7 +8510,7 @@
       "score": 37.7,
       "previous_score": 37.7,
       "change": 0.0,
-      "rank": 69
+      "rank": 68
     },
     {
       "city": "New York",
@@ -8760,7 +8635,7 @@
       "score": 37.5,
       "previous_score": 37.5,
       "change": 0.0,
-      "rank": 70
+      "rank": 69
     },
     {
       "city": "Birmingham",
@@ -8885,7 +8760,7 @@
       "score": 37.3,
       "previous_score": 37.3,
       "change": 0.0,
-      "rank": 71
+      "rank": 70
     },
     {
       "city": "Washington",
@@ -9010,7 +8885,7 @@
       "score": 37.2,
       "previous_score": 37.2,
       "change": 0.0,
-      "rank": 72
+      "rank": 71
     },
     {
       "city": "New Orleans",
@@ -9135,7 +9010,7 @@
       "score": 37.1,
       "previous_score": 37.1,
       "change": 0.0,
-      "rank": 73
+      "rank": 72
     },
     {
       "city": "Jacksonville",
@@ -9260,7 +9135,7 @@
       "score": 37.0,
       "previous_score": 37.0,
       "change": 0.0,
-      "rank": 74
+      "rank": 73
     },
     {
       "city": "Tampa",
@@ -9385,6 +9260,131 @@
       "score": 36.9,
       "previous_score": 36.9,
       "change": 0.0,
+      "rank": 74
+    },
+    {
+      "city": "Charleston",
+      "state": "WV",
+      "state_name": "West Virginia",
+      "slug": "charleston-wv",
+      "lat": 38.35,
+      "lon": -81.63,
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 26.1,
+          "tmax_f": 43.9,
+          "tavg_f": 35.0,
+          "prcp_in": 3.27
+        },
+        {
+          "month": 2,
+          "tmin_f": 28.6,
+          "tmax_f": 47.8,
+          "tavg_f": 38.2,
+          "prcp_in": 3.36
+        },
+        {
+          "month": 3,
+          "tmin_f": 35.1,
+          "tmax_f": 56.8,
+          "tavg_f": 46.0,
+          "prcp_in": 4.14
+        },
+        {
+          "month": 4,
+          "tmin_f": 44.5,
+          "tmax_f": 69.4,
+          "tavg_f": 56.9,
+          "prcp_in": 3.56
+        },
+        {
+          "month": 5,
+          "tmin_f": 53.2,
+          "tmax_f": 76.2,
+          "tavg_f": 64.7,
+          "prcp_in": 4.93
+        },
+        {
+          "month": 6,
+          "tmin_f": 61.5,
+          "tmax_f": 83.1,
+          "tavg_f": 72.3,
+          "prcp_in": 4.72
+        },
+        {
+          "month": 7,
+          "tmin_f": 65.5,
+          "tmax_f": 86.0,
+          "tavg_f": 75.8,
+          "prcp_in": 5.38
+        },
+        {
+          "month": 8,
+          "tmin_f": 64.1,
+          "tmax_f": 85.2,
+          "tavg_f": 74.6,
+          "prcp_in": 3.75
+        },
+        {
+          "month": 9,
+          "tmin_f": 57.1,
+          "tmax_f": 79.5,
+          "tavg_f": 68.3,
+          "prcp_in": 3.46
+        },
+        {
+          "month": 10,
+          "tmin_f": 45.3,
+          "tmax_f": 68.7,
+          "tavg_f": 57.0,
+          "prcp_in": 2.91
+        },
+        {
+          "month": 11,
+          "tmin_f": 35.6,
+          "tmax_f": 57.3,
+          "tavg_f": 46.4,
+          "prcp_in": 3.2
+        },
+        {
+          "month": 12,
+          "tmin_f": 29.9,
+          "tmax_f": 47.5,
+          "tavg_f": 38.7,
+          "prcp_in": 3.56
+        }
+      ],
+      "station": "USW00013866 \u2014 CHARLESTON - YEAGER AP (2.9 mi)",
+      "air": {
+        "aqi": 65,
+        "category": "Preview",
+        "reporting_area": "Preview only",
+        "score": 71.0,
+        "source": "Starter preview"
+      },
+      "water": {
+        "active_cws": 414,
+        "health_violation_cws": 414,
+        "compliance_pct": 0.0,
+        "score": 0.0,
+        "source": "EPA ECHO / SDWIS current health-based violation status"
+      },
+      "climate": {
+        "moisture_pressure": 65.4,
+        "score": 34.6,
+        "warm_avg_f": 71.1,
+        "warm_precip_in": 22.2,
+        "source": "NOAA/NCEI 1991\u20132020 U.S. Climate Normals"
+      },
+      "housing": {
+        "median_year_built": 1957,
+        "score": 40.6,
+        "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
+      },
+      "score": 36.3,
+      "previous_score": 65.7,
+      "change": -29.4,
       "rank": 75
     }
   ]
