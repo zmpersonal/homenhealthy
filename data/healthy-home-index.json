@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated": "2026-09-03",
+    "generated": "2026-09-10",
     "starter": false,
     "status": "Live public-data refresh",
     "sources": {
       "airnow": 0,
-      "echo_states": 51,
+      "echo_states": 40,
       "noaa_cities": 75,
       "acs_cities": 70
     },
@@ -508,8 +508,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 54.1,
-      "previous_score": 78.7,
-      "change": -24.6,
+      "previous_score": 54.1,
+      "change": 0.0,
       "rank": 4
     },
     {
@@ -758,8 +758,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 53.9,
-      "previous_score": 82.4,
-      "change": -28.5,
+      "previous_score": 53.9,
+      "change": 0.0,
       "rank": 6
     },
     {
@@ -883,8 +883,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 53.8,
-      "previous_score": 81.0,
-      "change": -27.2,
+      "previous_score": 53.8,
+      "change": 0.0,
       "rank": 7
     },
     {
@@ -1383,8 +1383,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 51.5,
-      "previous_score": 80.0,
-      "change": -28.5,
+      "previous_score": 51.5,
+      "change": 0.0,
       "rank": 11
     },
     {
@@ -2133,8 +2133,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 47.5,
-      "previous_score": 72.1,
-      "change": -24.6,
+      "previous_score": 47.5,
+      "change": 0.0,
       "rank": 17
     },
     {
@@ -2383,8 +2383,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 47.4,
-      "previous_score": 74.7,
-      "change": -27.3,
+      "previous_score": 47.4,
+      "change": 0.0,
       "rank": 19
     },
     {
@@ -3258,8 +3258,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 45.1,
-      "previous_score": 72.1,
-      "change": -27.0,
+      "previous_score": 45.1,
+      "change": 0.0,
       "rank": 26
     },
     {
@@ -3758,8 +3758,8 @@
         "source": "Starter preview"
       },
       "score": 44.7,
-      "previous_score": 71.1,
-      "change": -26.4,
+      "previous_score": 44.7,
+      "change": 0.0,
       "rank": 30
     },
     {
@@ -3883,8 +3883,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 44.3,
-      "previous_score": 71.3,
-      "change": -27.0,
+      "previous_score": 44.3,
+      "change": 0.0,
       "rank": 31
     },
     {
@@ -4258,8 +4258,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 44.2,
-      "previous_score": 71.5,
-      "change": -27.3,
+      "previous_score": 44.2,
+      "change": 0.0,
       "rank": 34
     },
     {
@@ -4383,8 +4383,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 44.1,
-      "previous_score": 72.3,
-      "change": -28.2,
+      "previous_score": 44.1,
+      "change": 0.0,
       "rank": 35
     },
     {
@@ -5008,8 +5008,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 43.4,
-      "previous_score": 73.1,
-      "change": -29.7,
+      "previous_score": 43.4,
+      "change": 0.0,
       "rank": 40
     },
     {
@@ -5258,8 +5258,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 43.1,
-      "previous_score": 70.4,
-      "change": -27.3,
+      "previous_score": 43.1,
+      "change": 0.0,
       "rank": 42
     },
     {
@@ -6008,8 +6008,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 42.2,
-      "previous_score": 71.0,
-      "change": -28.8,
+      "previous_score": 42.2,
+      "change": 0.0,
       "rank": 48
     },
     {
@@ -7258,8 +7258,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 39.6,
-      "previous_score": 68.4,
-      "change": -28.8,
+      "previous_score": 39.6,
+      "change": 0.0,
       "rank": 58
     },
     {
@@ -7633,8 +7633,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 39.0,
-      "previous_score": 65.4,
-      "change": -26.4,
+      "previous_score": 39.0,
+      "change": 0.0,
       "rank": 61
     },
     {
@@ -8133,8 +8133,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 38.4,
-      "previous_score": 65.7,
-      "change": -27.3,
+      "previous_score": 38.4,
+      "change": 0.0,
       "rank": 65
     },
     {
@@ -8258,8 +8258,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 38.4,
-      "previous_score": 64.2,
-      "change": -25.8,
+      "previous_score": 38.4,
+      "change": 0.0,
       "rank": 66
     },
     {
@@ -9383,8 +9383,8 @@
         "source": "U.S. Census Bureau ACS 2024 5-year, B25035_001E"
       },
       "score": 36.3,
-      "previous_score": 65.7,
-      "change": -29.4,
+      "previous_score": 36.3,
+      "change": 0.0,
       "rank": 75
     }
   ]
