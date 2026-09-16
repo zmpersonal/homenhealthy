@@ -18,6 +18,7 @@ import io
 import json
 import math
 import os
+import random
 import re
 import subprocess
 import sys
@@ -34,6 +35,8 @@ AIRNOW = "https://files.airnowtech.org/airnow/today/reportingarea.dat"
 ECHO = "https://echodata.epa.gov/echo/sdw_rest_services.get_systems"
 ACS_YEAR = "2024"
 METHODOLOGY_VERSION = "2.0"
+ECHO_REQUEST_GAP_SECONDS = 2.0
+ECHO_MAX_ATTEMPTS = 6
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "HomeNHealthy.com public environmental data index; corrections@homenhealthy.com"})
@@ -200,10 +203,44 @@ def nearest_air(city, rows):
     }
 
 
+def echo_retry_delay(response, attempt):
+    """Return a bounded delay, preferring ECHO's Retry-After header."""
+    retry_after = response.headers.get("Retry-After", "").strip()
+    try:
+        delay = float(retry_after)
+    except (TypeError, ValueError):
+        delay = 15.0 * (2 ** attempt)
+    return min(max(delay, 1.0), 120.0) + random.uniform(0.25, 1.25)
+
+
 def query_row_count(params):
-    response = SESSION.get(ECHO, params={**params, "output": "JSON"}, timeout=45)
-    response.raise_for_status()
-    return int(response.json()["Results"]["QueryRows"])
+    """Query ECHO with bounded retries for rate limits and transient errors."""
+    for attempt in range(ECHO_MAX_ATTEMPTS):
+        try:
+            response = SESSION.get(ECHO, params={**params, "output": "JSON"}, timeout=45)
+        except (requests.Timeout, requests.ConnectionError) as exc:
+            if attempt == ECHO_MAX_ATTEMPTS - 1:
+                raise
+            delay = min(15.0 * (2 ** attempt), 120.0) + random.uniform(0.25, 1.25)
+            print(f"ECHO request error: {exc}; retrying in {delay:.1f}s")
+            time.sleep(delay)
+            continue
+
+        if response.status_code == 429 or 500 <= response.status_code < 600:
+            if attempt == ECHO_MAX_ATTEMPTS - 1:
+                response.raise_for_status()
+            delay = echo_retry_delay(response, attempt)
+            print(
+                f"ECHO HTTP {response.status_code}; retrying in {delay:.1f}s "
+                f"({attempt + 1}/{ECHO_MAX_ATTEMPTS - 1})"
+            )
+            time.sleep(delay)
+            continue
+
+        response.raise_for_status()
+        return int(response.json()["Results"]["QueryRows"])
+
+    raise RuntimeError("ECHO request exhausted all retry attempts")
 
 
 def fetch_water_states(states):
@@ -213,6 +250,7 @@ def fetch_water_states(states):
         base = {"p_act": "Y", "p_st": state, "p_systyp": "CWS"}
         try:
             total = query_row_count(base)
+            time.sleep(ECHO_REQUEST_GAP_SECONDS)
             # p_cs=H means systems with a current health-based violation.
             violations = query_row_count({**base, "p_cs": "H"})
             if total <= 0 or violations < 0 or violations > total:
@@ -234,7 +272,7 @@ def fetch_water_states(states):
             print("ECHO", state, total, violations, compliance)
         except Exception as exc:
             print("ECHO unavailable", state, exc)
-        time.sleep(0.10)
+        time.sleep(ECHO_REQUEST_GAP_SECONDS)
 
     if results:
         equal = sum(1 for item in results.values() if item["active_cws"] == item["health_violation_cws"])
