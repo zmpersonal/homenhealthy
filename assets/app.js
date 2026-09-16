@@ -1,1 +1,37 @@
-document.addEventListener('DOMContentLoaded',()=>{const input=document.querySelector('[data-city-search]');if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase();document.querySelectorAll('[data-city-row]').forEach(r=>r.style.display=r.innerText.toLowerCase().includes(q)?'':'none')})}const form=document.querySelector('[data-home-lookup]');if(form){form.addEventListener('submit',e=>{e.preventDefault();const q=form.querySelector('input').value.trim().toLowerCase();if(!q)return;const rows=[...document.querySelectorAll('[data-lookup-city]')];const hit=rows.find(a=>a.dataset.lookupCity.includes(q));if(hit)location.href=hit.href;else location.href='/rankings/'})}});
+document.addEventListener("DOMContentLoaded", () => {
+  const filter = document.querySelector("[data-city-search]");
+  if (filter) {
+    filter.addEventListener("input", () => {
+      const query = filter.value.trim().toLowerCase();
+      document.querySelectorAll("[data-city-row]").forEach((row) => {
+        row.hidden = !row.innerText.toLowerCase().includes(query);
+      });
+    });
+  }
+
+  const lookup = document.querySelector("[data-home-lookup]");
+  if (lookup) {
+    lookup.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const query = lookup.querySelector("input").value.trim().toLowerCase();
+      if (!query) return;
+      const cities = [...document.querySelectorAll("[data-lookup-city]")];
+      const exact = cities.find((city) => city.dataset.lookupCity === query);
+      const partial = cities.find((city) => city.dataset.lookupCity.includes(query));
+      window.location.href = (exact || partial)?.href || "/cities/";
+    });
+  }
+
+  document.querySelectorAll("[data-copy-text]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.copyText);
+        const original = button.textContent;
+        button.textContent = "Copied";
+        setTimeout(() => { button.textContent = original; }, 1600);
+      } catch {
+        button.textContent = "Select and copy the citation above";
+      }
+    });
+  });
+});

@@ -1,76 +1,76 @@
-rank,city,state,score,current_aqi,water_compliance_pct,moisture_pressure,median_year_built,change
-1,Boise,ID,59.4,24,0.0,28.1,1999,0.0
-2,Reno,NV,56.8,31,0.0,26.1,1990,0.0
-3,Las Vegas,NV,54.8,22,0.0,48.6,1994,0.0
-4,Spokane,WA,54.1,22,0.0,21.9,1961,0.0
-5,Billings,MT,54.1,32,0.0,29.3,1980,0.0
-6,Sioux Falls,SD,53.9,22,0.0,52.3,1993,0.0
-7,Austin,TX,53.8,36,0.0,39.9,1994,0.0
-8,Anchorage,AK,53.8,48,0.0,16.4,1982,0.0
-9,Fargo,ND,52.5,36,0.0,43.4,1991,0.0
-10,San Francisco,CA,51.6,32,0.0,10.5,1946,0.0
-11,Cheyenne,WY,51.5,41,0.0,29.5,1976,0.0
-12,Albuquerque,NM,51.4,38,0.0,38.5,1982,0.0
-13,Louisville,KY,48.6,35,0.0,66.6,1994,0.0
-14,San Diego,CA,48.4,67,0.0,23.5,1979,0.0
-15,Sacramento,CA,48.1,57,0.0,32.3,1977,0.0
-16,Los Angeles,CA,47.9,52,0.0,26.7,1965,0.0
-17,Seattle,WA,47.5,68,0.0,24.4,1976,0.0
-18,Colorado Springs,CO,47.5,63,0.0,38.3,1986,0.0
-19,San Antonio,TX,47.4,28,0.0,71.1,1985,0.0
-20,Chicago,IL,47.3,50,0.0,20.5,1953,0.0
-21,Honolulu,HI,47.0,55,0.0,46.9,1985,0.0
-22,Portland,OR,46.6,59,0.0,27.8,1966,0.0
-23,Columbus,OH,46.2,39,0.0,61.7,1980,0.0
-24,Des Moines,IA,45.9,22,0.0,62.8,1961,0.0
-25,Tucson,AZ,45.8,43,0.0,58.9,1979,0.0
-26,Milwaukee,WI,45.1,30,0.0,51.6,1953,0.0
-27,Detroit,MI,45.0,27,0.0,49.6,1947,0.0
-28,Newark,NJ,44.8,28,0.0,66.9,1966,0.0
-29,Manchester,NH,44.8,45,0.0,49.6,1966,0.0
-30,Nashville,TN,44.7,22,0.0,69.6,1962,0.0
-31,Madison,WI,44.3,52,0.0,58.7,1980,0.0
-32,Omaha,NE,44.3,41,0.0,62.7,1973,0.0
-33,Phoenix,AZ,44.3,56,0.0,59.6,1985,0.0
-34,El Paso,TX,44.2,65,0.0,51.1,1984,0.0
-35,Salt Lake City,UT,44.1,61,0.0,37.5,1965,0.0
-36,Kansas City,MO,43.9,29,0.0,73.0,1969,0.0
-37,Tulsa,OK,43.9,32,0.0,73.9,1973,0.0
-38,Little Rock,AR,43.8,44,0.0,66.9,1978,0.0
-39,Denver,CO,43.8,71,0.0,39.5,1975,0.0
-40,Charleston,SC,43.4,48,0.0,80.4,1995,0.0
-41,Hartford,CT,43.3,33,0.0,55.5,1951,0.0
-42,Dallas,TX,43.1,46,0.0,71.2,1981,0.0
-43,Portland,ME,43.1,37,0.0,47.7,1946,0.0
-44,Charlotte,NC,42.9,66,0.0,66.5,1995,0.0
-45,Orlando,FL,42.7,42,0.0,87.2,1992,0.0
-46,Grand Rapids,MI,42.5,45,0.0,49.5,1953,0.0
-47,Indianapolis,IN,42.3,54,0.0,60.2,1973,0.0
-48,Virginia Beach,VA,42.2,54,0.0,71.1,1984,0.0
-49,Minneapolis,MN,42.1,37,0.0,57.7,1951,0.0
-50,Baltimore,MD,41.8,24,0.0,68.5,1947,0.0
-51,Wichita,KS,41.7,48,0.0,69.7,1974,0.0
-52,Atlanta,GA,41.6,65,0.0,68.6,1989,0.0
-53,Providence,RI,40.7,37,0.0,52.7,1938,0.0
-54,Raleigh,NC,40.6,71,0.0,75.3,1997,0.0
-55,Cleveland,OH,40.3,43,0.0,51.5,1941,0.0
-56,Miami,FL,40.0,44,0.0,86.7,1979,0.0
-57,Wilmington,DE,40.0,36,0.0,64.7,1946,0.0
-58,Richmond,VA,39.6,44,0.0,70.3,1959,0.0
-59,Jackson,MS,39.4,52,0.0,73.0,1969,0.0
-60,Oklahoma City,OK,39.1,70,0.0,70.3,1982,0.0
-61,Memphis,TN,39.0,54,0.0,73.9,1970,0.0
-62,Philadelphia,PA,39.0,36,0.0,72.5,1949,0.0
-63,Buffalo,NY,38.9,50,0.0,48.5,1938,0.0
-64,Pittsburgh,PA,38.6,51,0.0,53.0,1942,0.0
-65,Houston,TX,38.4,54,0.0,88.0,1982,0.0
-66,Burlington,VT,38.4,68,0.0,52.5,1957,0.0
-67,Boston,MA,38.1,61,0.0,51.0,1947,0.0
-68,St. Louis,MO,37.7,35,0.0,69.6,1938,0.0
-69,New York,NY,37.5,53,0.0,65.6,1952,0.0
-70,Birmingham,AL,37.3,54,0.0,77.7,1965,0.0
-71,Washington,DC,37.2,57,0.0,69.1,1958,0.0
-72,New Orleans,LA,37.1,41,0.0,86.7,1960,0.0
-73,Jacksonville,FL,37.0,68,0.0,86.8,1987,0.0
-74,Tampa,FL,36.9,65,0.0,88.3,1985,0.0
-75,Charleston,WV,36.3,65,0.0,65.4,1957,0.0
+rank,city,state,score,air_status,current_aqi,air_observed_at,water_status,active_cws,health_violation_cws,water_without_current_health_violation_pct,climate_status,moisture_pressure,warm_avg_f,warm_precip_in,housing_status,median_year_built,pre_1980_housing_pct,pre_1940_housing_pct,release_date,methodology_version
+,Albuquerque,NM,,unavailable,,,unavailable,,,,available,38.5,73.7,5.1,unavailable,,,,2026-09-16,2.0
+,Anchorage,AK,,unavailable,,,unavailable,,,,available,16.4,55.4,8.8,unavailable,,,,2026-09-16,2.0
+,Atlanta,GA,,unavailable,,,unavailable,,,,available,68.6,75.9,19.8,unavailable,,,,2026-09-16,2.0
+,Austin,TX,,unavailable,,,unavailable,,,,unavailable,,,,unavailable,,,,2026-09-16,2.0
+,Baltimore,MD,,unavailable,,,unavailable,,,,available,68.5,75.3,20.3,unavailable,,,,2026-09-16,2.0
+,Billings,MT,,unavailable,,,unavailable,,,,available,29.3,63.9,8.6,unavailable,,,,2026-09-16,2.0
+,Birmingham,AL,,unavailable,,,unavailable,,,,available,77.7,77.6,23.5,unavailable,,,,2026-09-16,2.0
+,Boise,ID,,unavailable,,,unavailable,,,,available,28.1,69.4,3.0,unavailable,,,,2026-09-16,2.0
+,Boston,MA,,unavailable,,,unavailable,,,,available,51.0,67.8,17.2,unavailable,,,,2026-09-16,2.0
+,Buffalo,NY,,unavailable,,,unavailable,,,,available,48.5,66.1,17.3,unavailable,,,,2026-09-16,2.0
+,Burlington,VT,,unavailable,,,unavailable,,,,available,52.5,66.3,19.3,unavailable,,,,2026-09-16,2.0
+,Charleston,SC,,unavailable,,,unavailable,,,,available,80.4,78.8,23.9,unavailable,,,,2026-09-16,2.0
+,Charleston,WV,,unavailable,,,unavailable,,,,available,65.4,71.1,22.2,unavailable,,,,2026-09-16,2.0
+,Charlotte,NC,,unavailable,,,unavailable,,,,available,66.5,75.4,19.1,unavailable,,,,2026-09-16,2.0
+,Cheyenne,WY,,unavailable,,,unavailable,,,,available,29.5,62.6,9.7,unavailable,,,,2026-09-16,2.0
+,Chicago,IL,,unavailable,,,unavailable,,,,unavailable,,,,unavailable,,,,2026-09-16,2.0
+,Cleveland,OH,,unavailable,,,unavailable,,,,available,51.5,69.0,16.4,unavailable,,,,2026-09-16,2.0
+,Colorado Springs,CO,,unavailable,,,unavailable,,,,available,38.3,66.0,11.7,unavailable,,,,2026-09-16,2.0
+,Columbus,OH,,unavailable,,,unavailable,,,,available,61.7,69.8,21.4,unavailable,,,,2026-09-16,2.0
+,Dallas,TX,,unavailable,,,unavailable,,,,available,71.2,82.7,15.4,unavailable,,,,2026-09-16,2.0
+,Denver,CO,,unavailable,,,unavailable,,,,available,39.5,69.5,9.3,unavailable,,,,2026-09-16,2.0
+,Des Moines,IA,,unavailable,,,unavailable,,,,available,62.8,70.1,21.7,unavailable,,,,2026-09-16,2.0
+,Detroit,MI,,unavailable,,,unavailable,,,,available,49.6,68.2,16.0,unavailable,,,,2026-09-16,2.0
+,El Paso,TX,,unavailable,,,unavailable,,,,available,51.1,80.7,5.9,unavailable,,,,2026-09-16,2.0
+,Fargo,ND,,unavailable,,,unavailable,,,,available,43.4,64.6,15.7,unavailable,,,,2026-09-16,2.0
+,Grand Rapids,MI,,unavailable,,,unavailable,,,,available,49.5,65.5,18.3,unavailable,,,,2026-09-16,2.0
+,Hartford,CT,,unavailable,,,unavailable,,,,available,55.5,69.0,18.6,unavailable,,,,2026-09-16,2.0
+,Honolulu,HI,,unavailable,,,unavailable,,,,available,46.9,80.2,4.0,unavailable,,,,2026-09-16,2.0
+,Houston,TX,,unavailable,,,unavailable,,,,available,88.0,82.3,25.3,unavailable,,,,2026-09-16,2.0
+,Indianapolis,IN,,unavailable,,,unavailable,,,,available,60.2,69.2,21.1,unavailable,,,,2026-09-16,2.0
+,Jackson,MS,,unavailable,,,unavailable,,,,available,73.0,79.3,19.3,unavailable,,,,2026-09-16,2.0
+,Jacksonville,FL,,unavailable,,,unavailable,,,,available,86.8,81.6,28.8,unavailable,,,,2026-09-16,2.0
+,Kansas City,MO,,unavailable,,,unavailable,,,,available,73.0,74.8,23.3,unavailable,,,,2026-09-16,2.0
+,Las Vegas,NV,,unavailable,,,unavailable,,,,available,48.6,85.2,0.7,unavailable,,,,2026-09-16,2.0
+,Little Rock,AR,,unavailable,,,unavailable,,,,available,66.9,76.8,18.1,unavailable,,,,2026-09-16,2.0
+,Los Angeles,CA,,unavailable,,,unavailable,,,,available,26.7,71.4,0.6,unavailable,,,,2026-09-16,2.0
+,Louisville,KY,,unavailable,,,unavailable,,,,available,66.6,74.5,20.0,unavailable,,,,2026-09-16,2.0
+,Madison,WI,,unavailable,,,unavailable,,,,available,58.7,66.0,23.0,unavailable,,,,2026-09-16,2.0
+,Manchester,NH,,unavailable,,,unavailable,,,,available,49.6,65.0,18.8,unavailable,,,,2026-09-16,2.0
+,Memphis,TN,,unavailable,,,unavailable,,,,available,73.9,78.6,20.5,unavailable,,,,2026-09-16,2.0
+,Miami,FL,,unavailable,,,unavailable,,,,available,86.7,81.5,34.6,unavailable,,,,2026-09-16,2.0
+,Milwaukee,WI,,unavailable,,,unavailable,,,,available,51.6,67.1,18.1,unavailable,,,,2026-09-16,2.0
+,Minneapolis,MN,,unavailable,,,unavailable,,,,available,57.7,67.0,21.6,unavailable,,,,2026-09-16,2.0
+,Nashville,TN,,unavailable,,,unavailable,,,,available,69.6,74.2,21.9,unavailable,,,,2026-09-16,2.0
+,New Orleans,LA,,unavailable,,,unavailable,,,,available,86.7,81.6,32.5,unavailable,,,,2026-09-16,2.0
+,New York,NY,,unavailable,,,unavailable,,,,available,65.6,71.6,22.0,unavailable,,,,2026-09-16,2.0
+,Newark,NJ,,unavailable,,,unavailable,,,,available,66.9,71.5,22.8,unavailable,,,,2026-09-16,2.0
+,Oklahoma City,OK,,unavailable,,,unavailable,,,,available,70.3,76.0,20.7,unavailable,,,,2026-09-16,2.0
+,Omaha,NE,,unavailable,,,unavailable,,,,available,62.7,71.8,20.2,unavailable,,,,2026-09-16,2.0
+,Orlando,FL,,unavailable,,,unavailable,,,,available,87.2,81.9,34.1,unavailable,,,,2026-09-16,2.0
+,Philadelphia,PA,,unavailable,,,unavailable,,,,available,72.5,74.3,23.4,unavailable,,,,2026-09-16,2.0
+,Phoenix,AZ,,unavailable,,,unavailable,,,,available,59.6,90.5,2.6,unavailable,,,,2026-09-16,2.0
+,Pittsburgh,PA,,unavailable,,,unavailable,,,,available,53.0,69.1,17.1,unavailable,,,,2026-09-16,2.0
+,Portland,ME,,unavailable,,,unavailable,,,,available,47.7,64.1,18.6,unavailable,,,,2026-09-16,2.0
+,Portland,OR,,unavailable,,,unavailable,,,,available,27.8,65.1,6.6,unavailable,,,,2026-09-16,2.0
+,Providence,RI,,unavailable,,,unavailable,,,,available,52.7,68.1,17.9,unavailable,,,,2026-09-16,2.0
+,Raleigh,NC,,unavailable,,,unavailable,,,,available,75.3,75.5,23.9,unavailable,,,,2026-09-16,2.0
+,Reno,NV,,unavailable,,,unavailable,,,,available,26.1,69.8,1.6,unavailable,,,,2026-09-16,2.0
+,Richmond,VA,,unavailable,,,unavailable,,,,available,70.3,74.0,22.5,unavailable,,,,2026-09-16,2.0
+,Sacramento,CA,,unavailable,,,unavailable,,,,available,32.3,74.2,1.2,unavailable,,,,2026-09-16,2.0
+,Salt Lake City,UT,,unavailable,,,unavailable,,,,available,37.5,72.4,5.6,unavailable,,,,2026-09-16,2.0
+,San Antonio,TX,,unavailable,,,unavailable,,,,available,71.1,81.1,16.7,unavailable,,,,2026-09-16,2.0
+,San Diego,CA,,unavailable,,,unavailable,,,,available,23.5,69.4,0.5,unavailable,,,,2026-09-16,2.0
+,San Francisco,CA,,unavailable,,,unavailable,,,,available,10.5,60.5,1.1,unavailable,,,,2026-09-16,2.0
+,Seattle,WA,,unavailable,,,unavailable,,,,available,24.4,63.7,6.0,unavailable,,,,2026-09-16,2.0
+,Sioux Falls,SD,,unavailable,,,unavailable,,,,available,52.3,67.6,18.0,unavailable,,,,2026-09-16,2.0
+,Spokane,WA,,unavailable,,,unavailable,,,,available,21.9,64.1,4.2,unavailable,,,,2026-09-16,2.0
+,St. Louis,MO,,unavailable,,,unavailable,,,,available,69.6,75.2,21.0,unavailable,,,,2026-09-16,2.0
+,Tampa,FL,,unavailable,,,unavailable,,,,available,88.3,82.6,32.8,unavailable,,,,2026-09-16,2.0
+,Tucson,AZ,,unavailable,,,unavailable,,,,available,58.9,84.6,6.8,unavailable,,,,2026-09-16,2.0
+,Tulsa,OK,,unavailable,,,unavailable,,,,available,73.9,77.5,21.4,unavailable,,,,2026-09-16,2.0
+,Virginia Beach,VA,,unavailable,,,unavailable,,,,available,71.1,73.7,23.2,unavailable,,,,2026-09-16,2.0
+,Washington,DC,,unavailable,,,unavailable,,,,available,69.1,74.6,21.3,unavailable,,,,2026-09-16,2.0
+,Wichita,KS,,unavailable,,,unavailable,,,,available,69.7,74.6,21.6,unavailable,,,,2026-09-16,2.0
+,Wilmington,DE,,unavailable,,,unavailable,,,,available,64.7,69.7,23.2,unavailable,,,,2026-09-16,2.0
