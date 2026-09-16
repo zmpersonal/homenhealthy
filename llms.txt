@@ -1,0 +1,26 @@
+# HomeNHealthy
+
+HomeNHealthy is a public-data resource joining U.S. environmental and housing datasets into 75 city profiles.
+
+## Canonical resources
+- City directory: https://homenhealthy.com/cities/
+- Dataset landing page: https://homenhealthy.com/data-download/
+- Methodology v2.0: https://homenhealthy.com/methodology/
+- Source catalog: https://homenhealthy.com/sources/
+- Data dictionary: https://homenhealthy.com/data-dictionary/
+- Corrections log: https://homenhealthy.com/corrections/
+- JSON release: https://homenhealthy.com/data/healthy-home-index.json
+- CSV release: https://homenhealthy.com/data/healthy-home-index.csv
+
+## Interpretation
+- Current AirNow AQI is a preliminary outdoor observation and is not weighted in the structural index.
+- Drinking-water values are state-level EPA ECHO context, not a utility or tap-water determination.
+- Climate moisture pressure is a transparent NOAA-derived proxy, not a mold prediction.
+- Housing-age values are Census place estimates; pre-1980 is reported because ACS does not split 1978 within its 1970–1979 bin.
+- Null or unavailable values are not zero.
+
+## Citation
+HomeNHealthy. "U.S. Home Environmental Profiles." Methodology v2.0, updated 2026-09-16. https://homenhealthy.com/data-download/
+
+## License
+CC BY 4.0 for HomeNHealthy's aggregation and original explanatory text. Underlying source datasets retain their own terms.
