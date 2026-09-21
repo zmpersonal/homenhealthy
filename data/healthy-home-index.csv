@@ -1,76 +1,76 @@
 rank,city,state,score,air_status,current_aqi,air_observed_at,water_status,active_cws,health_violation_cws,water_without_current_health_violation_pct,climate_status,moisture_pressure,warm_avg_f,warm_precip_in,housing_status,median_year_built,pre_1980_housing_pct,pre_1940_housing_pct,release_date,methodology_version
-25,Albuquerque,NM,63.4,available,36,09/17/26 9:00 MDT,available,649,159,75.5,available,38.5,73.7,5.1,available,1982,47.0,3.0,2026-09-17,2.0
-1,Anchorage,AK,75.1,available,18,09/17/26 7:00 ADT,available,408,51,87.5,available,16.4,55.4,8.8,available,1982,44.5,0.7,2026-09-17,2.0
-21,Atlanta,GA,64.4,available,57,09/17/26 11:00 EDT,available,1742,2,99.9,available,68.6,75.9,19.8,available,1989,42.7,11.9,2026-09-17,2.0
-18,Austin,TX,65.0,available,57,09/17/26 10:00 CDT,available,4752,408,91.4,available,73.7,82.6,16.9,available,1994,28.3,2.2,2026-09-17,2.0
-63,Baltimore,MD,50.5,available,39,09/17/26 11:00 EDT,available,464,5,98.9,available,68.5,75.3,20.3,available,1947,81.6,41.5,2026-09-17,2.0
-6,Billings,MT,72.7,available,31,09/17/26 9:00 MDT,available,849,23,97.3,available,29.3,63.9,8.6,available,1980,50.3,6.4,2026-09-17,2.0
-62,Birmingham,AL,50.9,available,59,09/17/26 10:00 CDT,available,501,10,98.0,available,77.7,77.6,23.5,available,1965,71.6,18.3,2026-09-17,2.0
-,Boise,ID,,available,55,09/17/26 9:00 MDT,available,774,30,96.1,available,28.1,69.4,3.0,unavailable,,,,2026-09-17,2.0
-35,Boston,MA,58.6,available,42,09/17/26 11:00 EDT,available,528,12,97.7,available,51.0,67.8,17.2,available,1947,72.3,46.7,2026-09-17,2.0
-55,Buffalo,NY,53.4,available,39,09/17/26 11:00 EDT,available,2257,45,98.0,available,48.5,66.1,17.3,available,1938,89.7,61.0,2026-09-17,2.0
-41,Burlington,VT,57.4,available,27,09/17/26 11:00 EDT,available,405,20,95.1,available,52.5,66.3,19.3,available,1957,71.9,38.4,2026-09-17,2.0
-24,Charleston,SC,63.7,available,50,09/17/26 11:00 EDT,available,562,2,99.6,available,80.4,78.8,23.9,available,1995,34.4,10.0,2026-09-17,2.0
-68,Charleston,WV,44.3,available,51,09/17/26 11:00 EDT,available,414,99,76.1,available,65.4,71.1,22.2,available,1957,79.3,25.5,2026-09-17,2.0
-9,Charlotte,NC,69.6,available,62,09/17/26 11:00 EDT,available,1984,38,98.1,available,66.5,75.4,19.1,available,1995,27.9,2.5,2026-09-17,2.0
-11,Cheyenne,WY,69.1,available,16,09/17/26 9:00 MDT,available,327,20,93.9,available,29.5,62.6,9.7,available,1976,56.8,12.1,2026-09-17,2.0
-47,Chicago,IL,54.8,available,33,09/17/26 10:00 CDT,available,1787,90,95.0,available,57.1,70.3,18.4,available,1953,75.2,38.8,2026-09-17,2.0
-54,Cleveland,OH,53.5,available,56,09/17/26 11:00 EDT,available,1125,39,96.5,available,51.5,69.0,16.4,available,1941,85.1,48.6,2026-09-17,2.0
-7,Colorado Springs,CO,72.6,available,22,09/17/26 9:00 MDT,available,1060,66,93.8,available,38.3,66.0,11.7,available,1986,39.4,5.3,2026-09-17,2.0
-26,Columbus,OH,62.8,available,38,09/17/26 11:00 EDT,available,1125,39,96.5,available,61.7,69.8,21.4,available,1980,49.8,12.0,2026-09-17,2.0
-33,Dallas,TX,58.8,available,61,09/17/26 10:00 CDT,available,4752,408,91.4,available,71.2,82.7,15.4,available,1981,48.1,5.1,2026-09-17,2.0
-15,Denver,CO,66.6,available,63,09/17/26 9:00 MDT,available,1060,66,93.8,available,39.5,69.5,9.3,available,1975,55.5,16.9,2026-09-17,2.0
-43,Des Moines,IA,56.4,available,25,09/17/26 10:00 CDT,available,1081,5,99.5,available,62.8,70.1,21.7,available,1961,70.3,26.7,2026-09-17,2.0
-59,Detroit,MI,52.2,available,33,09/17/26 11:00 EDT,available,1392,52,96.3,available,49.6,68.2,16.0,available,1947,90.3,36.3,2026-09-17,2.0
-16,El Paso,TX,66.2,available,42,09/17/26 10:00 CDT,available,4752,408,91.4,available,51.1,80.7,5.9,available,1984,44.1,4.7,2026-09-17,2.0
-3,Fargo,ND,73.9,available,21,09/17/26 9:00 CST,available,319,1,99.7,available,43.4,64.6,15.7,available,1991,37.1,8.3,2026-09-17,2.0
-39,Grand Rapids,MI,57.4,available,54,09/17/26 11:00 EDT,available,1392,52,96.3,available,49.5,65.5,18.3,available,1953,75.7,37.5,2026-09-17,2.0
-67,Hartford,CT,46.0,available,40,09/17/26 11:00 EDT,available,476,126,73.5,available,55.5,69.0,18.6,available,1951,80.1,40.2,2026-09-17,2.0
-,Honolulu,HI,,available,14,09/17/26 5:00 HST,available,118,0,100.0,available,46.9,80.2,4.0,unavailable,,,,2026-09-17,2.0
-49,Houston,TX,54.1,available,51,09/17/26 10:00 CDT,available,4752,408,91.4,available,88.0,82.3,25.3,available,1982,47.0,4.0,2026-09-17,2.0
-,Indianapolis,IN,,available,64,09/17/26 11:00 EDT,available,766,37,95.2,available,60.2,69.2,21.1,unavailable,,,,2026-09-17,2.0
-61,Jackson,MS,51.7,available,58,09/17/26 10:00 CDT,available,1015,25,97.5,available,73.0,79.3,19.3,available,1969,72.8,4.6,2026-09-17,2.0
-44,Jacksonville,FL,56.2,available,42,09/17/26 11:00 EDT,available,1598,178,88.9,available,86.8,81.6,28.8,available,1987,39.6,4.9,2026-09-17,2.0
-45,Kansas City,MO,55.7,available,56,09/17/26 10:00 CDT,available,1432,15,99.0,available,73.0,74.8,23.3,available,1969,63.1,21.3,2026-09-17,2.0
-5,Las Vegas,NV,72.9,available,47,09/17/26 8:00 PDT,available,213,28,86.9,available,48.6,85.2,0.7,available,1994,22.8,0.5,2026-09-17,2.0
-34,Little Rock,AR,58.7,available,73,09/17/26 10:00 CDT,available,659,52,92.1,available,66.9,76.8,18.1,available,1978,52.7,8.0,2026-09-17,2.0
-29,Los Angeles,CA,61.2,available,35,09/17/26 8:00 PDT,available,2929,533,81.8,available,26.7,71.4,0.6,available,1965,69.9,19.1,2026-09-17,2.0
-,Louisville,KY,,available,70,09/17/26 11:00 EDT,available,373,8,97.9,available,66.6,74.5,20.0,unavailable,,,,2026-09-17,2.0
-23,Madison,WI,63.7,available,24,09/17/26 10:00 CDT,available,1051,31,97.1,available,58.7,66.0,23.0,available,1980,50.6,13.0,2026-09-17,2.0
-28,Manchester,NH,62.2,available,34,09/17/26 11:00 EDT,available,706,5,99.3,available,49.6,65.0,18.8,available,1966,64.8,28.1,2026-09-17,2.0
-48,Memphis,TN,54.1,available,64,09/17/26 10:00 CDT,available,446,4,99.1,available,73.9,78.6,20.5,available,1970,67.0,7.7,2026-09-17,2.0
-58,Miami,FL,52.3,available,47,09/17/26 11:00 EDT,available,1598,178,88.9,available,86.7,81.5,34.6,available,1979,50.8,7.8,2026-09-17,2.0
-50,Milwaukee,WI,54.0,available,35,09/17/26 10:00 CDT,available,1051,31,97.1,available,51.6,67.1,18.1,available,1953,84.2,34.0,2026-09-17,2.0
-42,Minneapolis,MN,56.9,available,23,09/17/26 10:00 CDT,available,997,16,98.4,available,57.7,67.0,21.6,available,1951,72.2,42.8,2026-09-17,2.0
-,Nashville,TN,,available,61,09/17/26 10:00 CDT,available,446,4,99.1,available,69.6,74.2,21.9,unavailable,,,,2026-09-17,2.0
-69,New Orleans,LA,40.1,available,47,09/17/26 10:00 CDT,available,908,211,76.8,available,86.7,81.6,32.5,available,1960,73.7,31.4,2026-09-17,2.0
-60,New York,NY,52.0,available,57,09/17/26 11:00 EDT,available,2257,45,98.0,available,65.6,71.6,22.0,available,1952,78.9,38.2,2026-09-17,2.0
-46,Newark,NJ,55.6,available,64,09/17/26 11:00 EDT,available,555,22,96.0,available,66.9,71.5,22.8,available,1966,65.6,23.7,2026-09-17,2.0
-40,Oklahoma City,OK,57.4,available,60,09/17/26 10:00 CDT,available,900,129,85.7,available,70.3,76.0,20.7,available,1982,47.2,7.1,2026-09-17,2.0
-31,Omaha,NE,59.7,available,11,09/17/26 10:00 CDT,available,595,3,99.5,available,62.7,71.8,20.2,available,1973,60.9,17.8,2026-09-17,2.0
-36,Orlando,FL,58.5,available,33,09/17/26 11:00 EDT,available,1598,178,88.9,available,87.2,81.9,34.1,available,1992,32.6,2.6,2026-09-17,2.0
-66,Philadelphia,PA,47.9,available,52,09/17/26 11:00 EDT,available,1851,65,96.5,available,72.5,74.3,23.4,available,1949,83.3,39.9,2026-09-17,2.0
-27,Phoenix,AZ,62.7,available,44,09/17/26 8:00 MST,available,922,127,86.2,available,59.6,90.5,2.6,available,1985,41.6,1.9,2026-09-17,2.0
-53,Pittsburgh,PA,53.8,available,49,09/17/26 11:00 EDT,available,1851,65,96.5,available,53.0,69.1,17.1,available,1942,83.0,48.3,2026-09-17,2.0
-38,Portland,ME,58.3,available,31,09/17/26 11:00 EDT,available,386,7,98.2,available,47.7,64.1,18.6,available,1946,76.4,45.8,2026-09-17,2.0
-14,Portland,OR,68.1,available,47,09/17/26 8:00 PDT,available,947,36,96.2,available,27.8,65.1,6.6,available,1966,63.4,26.8,2026-09-17,2.0
-56,Providence,RI,53.3,available,46,09/17/26 11:00 EDT,available,89,6,93.3,available,52.7,68.1,17.9,available,1938,81.5,54.5,2026-09-17,2.0
-12,Raleigh,NC,68.7,available,55,09/17/26 11:00 EDT,available,1984,38,98.1,available,75.3,75.5,23.9,available,1997,23.1,2.5,2026-09-17,2.0
-2,Reno,NV,74.5,available,95,09/17/26 8:00 PDT,available,213,28,86.9,available,26.1,69.8,1.6,available,1990,37.4,2.9,2026-09-17,2.0
-52,Richmond,VA,53.9,available,52,09/17/26 11:00 EDT,available,1056,5,99.5,available,70.3,74.0,22.5,available,1959,70.9,28.4,2026-09-17,2.0
-17,Sacramento,CA,65.2,available,45,09/17/26 8:00 PDT,available,2929,533,81.8,available,32.3,74.2,1.2,available,1977,53.6,10.8,2026-09-17,2.0
-19,Salt Lake City,UT,64.8,available,52,09/17/26 9:00 MDT,available,520,15,97.1,available,37.5,72.4,5.6,available,1965,65.4,25.4,2026-09-17,2.0
-30,San Antonio,TX,60.8,available,51,09/17/26 10:00 CDT,available,4752,408,91.4,available,71.1,81.1,16.7,available,1985,42.5,5.1,2026-09-17,2.0
-13,San Diego,CA,68.2,available,52,09/17/26 8:00 PDT,available,2929,533,81.8,available,23.5,69.4,0.5,available,1979,52.4,6.4,2026-09-17,2.0
-22,San Francisco,CA,63.7,available,51,09/17/26 8:00 PDT,available,2929,533,81.8,available,10.5,60.5,1.1,available,1946,76.5,45.2,2026-09-17,2.0
-4,Seattle,WA,73.9,available,52,09/17/26 8:00 PDT,available,2376,18,99.2,available,24.4,63.7,6.0,available,1976,52.8,22.8,2026-09-17,2.0
-8,Sioux Falls,SD,70.7,available,8,09/17/26 10:00 CDT,available,511,18,96.5,available,52.3,67.6,18.0,available,1993,35.3,8.7,2026-09-17,2.0
-10,Spokane,WA,69.2,available,27,09/17/26 8:00 PDT,available,2376,18,99.2,available,21.9,64.1,4.2,available,1961,68.4,26.2,2026-09-17,2.0
-65,St. Louis,MO,48.6,available,59,09/17/26 10:00 CDT,available,1432,15,99.0,available,69.6,75.2,21.0,available,1938,86.2,57.9,2026-09-17,2.0
-51,Tampa,FL,54.0,available,41,09/17/26 11:00 EDT,available,1598,178,88.9,available,88.3,82.6,32.8,available,1985,44.5,8.4,2026-09-17,2.0
-32,Tucson,AZ,59.1,available,27,09/17/26 8:00 MST,available,922,127,86.2,available,58.9,84.6,6.8,available,1979,52.5,3.3,2026-09-17,2.0
-64,Tulsa,OK,50.1,available,57,09/17/26 10:00 CDT,available,900,129,85.7,available,73.9,77.5,21.4,available,1973,64.9,9.0,2026-09-17,2.0
-20,Virginia Beach,VA,64.6,available,46,09/17/26 11:00 EDT,available,1056,5,99.5,available,71.1,73.7,23.2,available,1984,39.7,1.0,2026-09-17,2.0
-70,Washington,DC,34.1,available,59,09/17/26 11:00 EDT,available,10,6,40.0,available,69.1,74.6,21.3,available,1958,69.0,31.5,2026-09-17,2.0
-37,Wichita,KS,58.4,available,63,09/17/26 10:00 CDT,available,857,14,98.4,available,69.7,74.6,21.6,available,1974,57.5,10.2,2026-09-17,2.0
-57,Wilmington,DE,53.0,available,34,09/17/26 11:00 EDT,available,206,0,100.0,available,64.7,69.7,23.2,available,1946,78.9,42.7,2026-09-17,2.0
+25,Albuquerque,NM,63.4,available,31,09/21/26 10:00 MDT,available,649,159,75.5,available,38.5,73.7,5.1,available,1982,47.0,3.0,2026-09-21,2.0
+1,Anchorage,AK,75.1,available,10,09/21/26 8:00 ADT,available,408,51,87.5,available,16.4,55.4,8.8,available,1982,44.5,0.7,2026-09-21,2.0
+21,Atlanta,GA,64.4,available,57,09/21/26 12:00 EDT,available,1742,2,99.9,available,68.6,75.9,19.8,available,1989,42.7,11.9,2026-09-21,2.0
+18,Austin,TX,65.0,available,51,09/21/26 11:00 CDT,available,4752,408,91.4,available,73.7,82.6,16.9,available,1994,28.3,2.2,2026-09-21,2.0
+63,Baltimore,MD,50.5,available,26,09/21/26 12:00 EDT,available,464,5,98.9,available,68.5,75.3,20.3,available,1947,81.6,41.5,2026-09-21,2.0
+6,Billings,MT,72.7,available,39,09/21/26 10:00 MDT,available,849,23,97.3,available,29.3,63.9,8.6,available,1980,50.3,6.4,2026-09-21,2.0
+62,Birmingham,AL,50.9,available,59,09/21/26 11:00 CDT,available,501,10,98.0,available,77.7,77.6,23.5,available,1965,71.6,18.3,2026-09-21,2.0
+,Boise,ID,,available,34,09/21/26 10:00 MDT,available,774,30,96.1,available,28.1,69.4,3.0,unavailable,,,,2026-09-21,2.0
+35,Boston,MA,58.6,available,22,09/21/26 12:00 EDT,available,528,12,97.7,available,51.0,67.8,17.2,available,1947,72.3,46.7,2026-09-21,2.0
+55,Buffalo,NY,53.4,available,20,09/21/26 12:00 EDT,available,2257,45,98.0,available,48.5,66.1,17.3,available,1938,89.7,61.0,2026-09-21,2.0
+41,Burlington,VT,57.4,available,15,09/21/26 12:00 EDT,available,405,20,95.1,available,52.5,66.3,19.3,available,1957,71.9,38.4,2026-09-21,2.0
+24,Charleston,SC,63.7,available,47,09/21/26 12:00 EDT,available,562,2,99.6,available,80.4,78.8,23.9,available,1995,34.4,10.0,2026-09-21,2.0
+68,Charleston,WV,44.3,available,44,09/21/26 12:00 EDT,available,414,99,76.1,available,65.4,71.1,22.2,available,1957,79.3,25.5,2026-09-21,2.0
+9,Charlotte,NC,69.6,available,61,09/21/26 12:00 EDT,available,1984,38,98.1,available,66.5,75.4,19.1,available,1995,27.9,2.5,2026-09-21,2.0
+11,Cheyenne,WY,69.1,available,32,09/21/26 10:00 MDT,available,327,20,93.9,available,29.5,62.6,9.7,available,1976,56.8,12.1,2026-09-21,2.0
+47,Chicago,IL,54.8,available,19,09/21/26 11:00 CDT,available,1787,90,95.0,available,57.1,70.3,18.4,available,1953,75.2,38.8,2026-09-21,2.0
+54,Cleveland,OH,53.5,available,24,09/21/26 12:00 EDT,available,1125,39,96.5,available,51.5,69.0,16.4,available,1941,85.1,48.6,2026-09-21,2.0
+7,Colorado Springs,CO,72.6,available,39,09/21/26 10:00 MDT,available,1060,66,93.8,available,38.3,66.0,11.7,available,1986,39.4,5.3,2026-09-21,2.0
+26,Columbus,OH,62.8,available,24,09/21/26 12:00 EDT,available,1125,39,96.5,available,61.7,69.8,21.4,available,1980,49.8,12.0,2026-09-21,2.0
+33,Dallas,TX,58.8,available,59,09/21/26 11:00 CDT,available,4752,408,91.4,available,71.2,82.7,15.4,available,1981,48.1,5.1,2026-09-21,2.0
+15,Denver,CO,66.6,available,53,09/21/26 10:00 MDT,available,1060,66,93.8,available,39.5,69.5,9.3,available,1975,55.5,16.9,2026-09-21,2.0
+43,Des Moines,IA,56.4,available,14,09/21/26 11:00 CDT,available,1081,5,99.5,available,62.8,70.1,21.7,available,1961,70.3,26.7,2026-09-21,2.0
+59,Detroit,MI,52.2,available,21,09/21/26 12:00 EDT,available,1392,52,96.3,available,49.6,68.2,16.0,available,1947,90.3,36.3,2026-09-21,2.0
+16,El Paso,TX,66.2,available,53,09/21/26 11:00 CDT,available,4752,408,91.4,available,51.1,80.7,5.9,available,1984,44.1,4.7,2026-09-21,2.0
+3,Fargo,ND,73.9,available,16,09/21/26 10:00 CST,available,319,1,99.7,available,43.4,64.6,15.7,available,1991,37.1,8.3,2026-09-21,2.0
+39,Grand Rapids,MI,57.4,available,38,09/21/26 12:00 EDT,available,1392,52,96.3,available,49.5,65.5,18.3,available,1953,75.7,37.5,2026-09-21,2.0
+67,Hartford,CT,46.0,available,22,09/21/26 12:00 EDT,available,476,126,73.5,available,55.5,69.0,18.6,available,1951,80.1,40.2,2026-09-21,2.0
+,Honolulu,HI,,available,27,09/21/26 6:00 HST,available,118,0,100.0,available,46.9,80.2,4.0,unavailable,,,,2026-09-21,2.0
+49,Houston,TX,54.1,available,53,09/21/26 11:00 CDT,available,4752,408,91.4,available,88.0,82.3,25.3,available,1982,47.0,4.0,2026-09-21,2.0
+,Indianapolis,IN,,available,28,09/21/26 12:00 EDT,available,766,37,95.2,available,60.2,69.2,21.1,unavailable,,,,2026-09-21,2.0
+61,Jackson,MS,51.7,available,37,09/21/26 11:00 CDT,available,1015,25,97.5,available,73.0,79.3,19.3,available,1969,72.8,4.6,2026-09-21,2.0
+44,Jacksonville,FL,56.2,available,57,09/21/26 12:00 EDT,available,1598,178,88.9,available,86.8,81.6,28.8,available,1987,39.6,4.9,2026-09-21,2.0
+45,Kansas City,MO,55.7,available,16,09/21/26 11:00 CDT,available,1432,15,99.0,available,73.0,74.8,23.3,available,1969,63.1,21.3,2026-09-21,2.0
+5,Las Vegas,NV,72.9,available,67,09/21/26 9:00 PDT,available,213,28,86.9,available,48.6,85.2,0.7,available,1994,22.8,0.5,2026-09-21,2.0
+34,Little Rock,AR,58.7,available,57,09/21/26 11:00 CDT,available,659,52,92.1,available,66.9,76.8,18.1,available,1978,52.7,8.0,2026-09-21,2.0
+29,Los Angeles,CA,61.2,available,49,09/21/26 9:00 PDT,available,2929,533,81.8,available,26.7,71.4,0.6,available,1965,69.9,19.1,2026-09-21,2.0
+,Louisville,KY,,available,33,09/21/26 12:00 EDT,available,373,8,97.9,available,66.6,74.5,20.0,unavailable,,,,2026-09-21,2.0
+23,Madison,WI,63.7,available,16,09/21/26 11:00 CDT,available,1051,31,97.1,available,58.7,66.0,23.0,available,1980,50.6,13.0,2026-09-21,2.0
+28,Manchester,NH,62.2,available,24,09/21/26 12:00 EDT,available,706,5,99.3,available,49.6,65.0,18.8,available,1966,64.8,28.1,2026-09-21,2.0
+48,Memphis,TN,54.1,available,62,09/21/26 11:00 CDT,available,446,4,99.1,available,73.9,78.6,20.5,available,1970,67.0,7.7,2026-09-21,2.0
+58,Miami,FL,52.3,available,36,09/21/26 12:00 EDT,available,1598,178,88.9,available,86.7,81.5,34.6,available,1979,50.8,7.8,2026-09-21,2.0
+50,Milwaukee,WI,54.0,available,21,09/21/26 11:00 CDT,available,1051,31,97.1,available,51.6,67.1,18.1,available,1953,84.2,34.0,2026-09-21,2.0
+42,Minneapolis,MN,56.9,available,17,09/21/26 11:00 CDT,available,997,16,98.4,available,57.7,67.0,21.6,available,1951,72.2,42.8,2026-09-21,2.0
+,Nashville,TN,,available,61,09/21/26 11:00 CDT,available,446,4,99.1,available,69.6,74.2,21.9,unavailable,,,,2026-09-21,2.0
+69,New Orleans,LA,40.1,available,48,09/21/26 11:00 CDT,available,908,211,76.8,available,86.7,81.6,32.5,available,1960,73.7,31.4,2026-09-21,2.0
+60,New York,NY,52.0,available,27,09/21/26 12:00 EDT,available,2257,45,98.0,available,65.6,71.6,22.0,available,1952,78.9,38.2,2026-09-21,2.0
+46,Newark,NJ,55.6,available,23,09/21/26 12:00 EDT,available,555,22,96.0,available,66.9,71.5,22.8,available,1966,65.6,23.7,2026-09-21,2.0
+40,Oklahoma City,OK,57.4,available,51,09/21/26 11:00 CDT,available,900,129,85.7,available,70.3,76.0,20.7,available,1982,47.2,7.1,2026-09-21,2.0
+31,Omaha,NE,59.7,available,13,09/21/26 11:00 CDT,available,595,3,99.5,available,62.7,71.8,20.2,available,1973,60.9,17.8,2026-09-21,2.0
+36,Orlando,FL,58.5,available,24,09/21/26 12:00 EDT,available,1598,178,88.9,available,87.2,81.9,34.1,available,1992,32.6,2.6,2026-09-21,2.0
+66,Philadelphia,PA,47.9,available,27,09/21/26 12:00 EDT,available,1851,65,96.5,available,72.5,74.3,23.4,available,1949,83.3,39.9,2026-09-21,2.0
+27,Phoenix,AZ,62.7,available,105,09/21/26 9:00 MST,available,922,127,86.2,available,59.6,90.5,2.6,available,1985,41.6,1.9,2026-09-21,2.0
+53,Pittsburgh,PA,53.8,available,25,09/21/26 12:00 EDT,available,1851,65,96.5,available,53.0,69.1,17.1,available,1942,83.0,48.3,2026-09-21,2.0
+38,Portland,ME,58.3,available,23,09/21/26 12:00 EDT,available,386,7,98.2,available,47.7,64.1,18.6,available,1946,76.4,45.8,2026-09-21,2.0
+14,Portland,OR,68.1,available,60,09/21/26 9:00 PDT,available,947,36,96.2,available,27.8,65.1,6.6,available,1966,63.4,26.8,2026-09-21,2.0
+56,Providence,RI,53.3,available,26,09/21/26 12:00 EDT,available,89,6,93.3,available,52.7,68.1,17.9,available,1938,81.5,54.5,2026-09-21,2.0
+12,Raleigh,NC,68.7,available,37,09/21/26 12:00 EDT,available,1984,38,98.1,available,75.3,75.5,23.9,available,1997,23.1,2.5,2026-09-21,2.0
+2,Reno,NV,74.5,available,67,09/21/26 9:00 PDT,available,213,28,86.9,available,26.1,69.8,1.6,available,1990,37.4,2.9,2026-09-21,2.0
+52,Richmond,VA,53.9,available,24,09/21/26 12:00 EDT,available,1056,5,99.5,available,70.3,74.0,22.5,available,1959,70.9,28.4,2026-09-21,2.0
+17,Sacramento,CA,65.2,available,27,09/21/26 9:00 PDT,available,2929,533,81.8,available,32.3,74.2,1.2,available,1977,53.6,10.8,2026-09-21,2.0
+19,Salt Lake City,UT,64.8,available,55,09/21/26 10:00 MDT,available,520,15,97.1,available,37.5,72.4,5.6,available,1965,65.4,25.4,2026-09-21,2.0
+30,San Antonio,TX,60.8,available,52,09/21/26 11:00 CDT,available,4752,408,91.4,available,71.1,81.1,16.7,available,1985,42.5,5.1,2026-09-21,2.0
+13,San Diego,CA,68.2,available,48,09/21/26 9:00 PDT,available,2929,533,81.8,available,23.5,69.4,0.5,available,1979,52.4,6.4,2026-09-21,2.0
+22,San Francisco,CA,63.7,available,23,09/21/26 9:00 PDT,available,2929,533,81.8,available,10.5,60.5,1.1,available,1946,76.5,45.2,2026-09-21,2.0
+4,Seattle,WA,73.9,available,59,09/21/26 9:00 PDT,available,2376,18,99.2,available,24.4,63.7,6.0,available,1976,52.8,22.8,2026-09-21,2.0
+8,Sioux Falls,SD,70.7,available,18,09/21/26 11:00 CDT,available,511,18,96.5,available,52.3,67.6,18.0,available,1993,35.3,8.7,2026-09-21,2.0
+10,Spokane,WA,69.2,available,54,09/21/26 9:00 PDT,available,2376,18,99.2,available,21.9,64.1,4.2,available,1961,68.4,26.2,2026-09-21,2.0
+65,St. Louis,MO,48.6,available,28,09/21/26 11:00 CDT,available,1432,15,99.0,available,69.6,75.2,21.0,available,1938,86.2,57.9,2026-09-21,2.0
+51,Tampa,FL,54.0,available,28,09/21/26 12:00 EDT,available,1598,178,88.9,available,88.3,82.6,32.8,available,1985,44.5,8.4,2026-09-21,2.0
+32,Tucson,AZ,59.1,available,53,09/21/26 9:00 MST,available,922,127,86.2,available,58.9,84.6,6.8,available,1979,52.5,3.3,2026-09-21,2.0
+64,Tulsa,OK,50.1,available,37,09/21/26 11:00 CDT,available,900,129,85.7,available,73.9,77.5,21.4,available,1973,64.9,9.0,2026-09-21,2.0
+20,Virginia Beach,VA,64.6,available,54,09/21/26 12:00 EDT,available,1056,5,99.5,available,71.1,73.7,23.2,available,1984,39.7,1.0,2026-09-21,2.0
+70,Washington,DC,34.1,available,39,09/21/26 12:00 EDT,available,10,6,40.0,available,69.1,74.6,21.3,available,1958,69.0,31.5,2026-09-21,2.0
+37,Wichita,KS,58.4,available,23,09/21/26 11:00 CDT,available,857,14,98.4,available,69.7,74.6,21.6,available,1974,57.5,10.2,2026-09-21,2.0
+57,Wilmington,DE,53.0,available,22,09/21/26 12:00 EDT,available,206,0,100.0,available,64.7,69.7,23.2,available,1946,78.9,42.7,2026-09-21,2.0
