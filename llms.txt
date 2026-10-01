@@ -20,7 +20,7 @@ HomeNHealthy is a public-data resource joining U.S. environmental and housing da
 - Null or unavailable values are not zero.
 
 ## Citation
-HomeNHealthy. "U.S. Home Environmental Profiles." Methodology v2.0, updated 2026-09-28. https://homenhealthy.com/data-download/
+HomeNHealthy. "U.S. Home Environmental Profiles." Methodology v2.0, updated 2026-10-01. https://homenhealthy.com/data-download/
 
 ## License
 CC BY 4.0 for HomeNHealthy's aggregation and original explanatory text. Underlying source datasets retain their own terms.
